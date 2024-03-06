@@ -1,7 +1,7 @@
 
 | Rank | Project | Repository | Tutorial | Resume | Language | Grade | Estimated effort (h) | End date | 
 |:----:|:-------:|:----------:|:--------:|:------:|:--------:|:-----:|:--------------------:|:--------:|  
-| 4 | CPP00-04 | 🔓 | ✍🏻 | Exercises to introduce OOP concepts such as: Abstraction, Encapsulation, Simple and multiple inheritance, Polymorphism and Interfaces | `C++` | `100/100` | 70h | 2024-02-01 |  
+| 4 | CPP00-04 | 🔓 | ✍🏻 | Exercises to introduce OOP concepts such as: Abstraction, Encapsulation, Simple and multiple inheritance, Polymorphism and Interfaces| `C++` | `100/100` | 70h | 2024-02-01 |  
 | 4 | Cub3d | 🔓 |  | Build a 3D graphics engine using Raycasting techniques and texture mapping. | `C` | `100/100` | 280h | 2023-12-04 |  
 | 4 | Netpratice | 🔐 |  | Practice IP addressing, subnets, routing and network management. | `TCP/IP` | `100/100` | 50h | 2023-10-06 |  
 | 4 | ExamRank4 | 🔐 |  | Exam required to finish rank 4. | `C` | `100/100` | 3h | 2023-09-26 |  
