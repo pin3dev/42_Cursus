@@ -1,8 +1,8 @@
 
 | Rank | Project | Repository | Tutorial | Resume | Language | Grade | Estimated effort (h) | End date | 
 |:----:|:-------:|:----------:|:--------:|:------:|:--------:|:-----:|:--------------------:|:--------:|  
-| 4 | [CPP00-04](https://github.com/pin3dev/42_CPP00-04) | 🔓 | ✍🏻 | OOP concepts | `C++` | `100/100` | 70h | 24Feb01 |  
-| 4 | [Cub3d](https://github.com/pin3dev/42_Cub3d) | 🔓 |  | 3D graphics engine using Raycasting | `C` | `100/100` | 280h | 23Dec04 |  
+| 4 | [CPP00-04](https://github.com/pin3dev/42_CPP_Modules_00-04) | 🔓 | ✍🏻 | OOP concepts | `C++` | `100/100` | 70h | 24Feb01 |  
+| 4 | [Cub3d](https://github.com/pin3dev/42_cub3D) | 🔓 |  | 3D graphics engine using Raycasting | `C` | `100/100` | 280h | 23Dec04 |  
 | 4 | Netpratice | 🔐 |  | IP addressing | `TCP/IP` | `100/100` | 50h | 23Out06 |  
 | 4 | ExamRank4 | 🔐 |  | Exam to finish rank 4. | `C` | `100/100` | 3h | 23Sep26 |  
 | 3 | [Minishell](https://github.com/pin3dev/42_Minishell) | 🔓 | ✍🏻 | Teminal shell | `C` | `100/100` | 210h | 23Sep19 |  
