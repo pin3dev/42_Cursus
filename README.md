@@ -1,7 +1,7 @@
 
 | Rank | Project | Repository | Tutorial | Resume | Language | Grade | Estimated effort (h) | End date | 
 |:----:|:-------:|:----------:|:--------:|:------:|:--------:|:-----:|:--------------------:|:--------:|  
-| 5 | Webserv | 🔐 |  | Sockets, Multiplexing, HTTP & Python Script | <img src="https://skillicons.dev/icons?i=cpp,py&theme=dark&perline=16" /> | `110/125` | 140h | 24Jun21 |  
+| 5 | Webserv | 🔐 |  | Sockets, Multiplexing, HTTP & Python Script | <img src="https://skillicons.dev/icons?i=cpp,html,css,js,py&theme=dark&perline=16" /> | `110/125` | 140h | 24Jun21 |  
 | 5 | CPP05-09 | 🔐 |  | SOLID concepts | <img src="https://skillicons.dev/icons?i=cpp&theme=dark&perline=16" /> | `100/100` | 140h | 24Mai29 |  
 | 4 | [CPP00-04](https://github.com/pin3dev/42_CPP_Modules_00-04) | 📂 | ✍🏻 | OOP concepts | <img src="https://skillicons.dev/icons?i=cpp&theme=dark&perline=16" /> | `100/100` | 70h | 24Feb01 |  
 | 4 | [Cub3d](https://github.com/pin3dev/42_cub3D) | 📂 |  | 3D graphics engine using Raycasting | <img src="https://skillicons.dev/icons?i=c&theme=dark&perline=16" /> | `100/100` | 280h | 23Dec04 |  
