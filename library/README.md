@@ -1,16 +1,5 @@
 <h1 align="center">📖 Theoretical 📖</h1>
 
-#### Grade
-| Keys |✅|⭐|⭐⭐|🤩|🔖|
-|:-----|--|--|---|--|-|
-| Description | OK | Good | VeryGood | Amazing | Bookmarked2Read |
-
-#### Type
-| Keys |📄|💭|📹|📚|
-|:-----|--|--|---|--|
-| Description | Blog | Chat | Video | Book_&_ScientificPapers |
-
-
 
 ## 00-Libft
 
@@ -33,3 +22,5 @@
 |🤩| 🇺🇸 | 📄 |[Linked List in C](https://www.geeksforgeeks.org/linked-list-in-c/)|  
 |🤩| 🇺🇸 | 📄 |[Learn Makefiles](https://makefiletutorial.com/)|  
 |🤩| 🇺🇸 | 📚 |[GNU make](https://www.gnu.org/software/make/manual/make.html)|  
+> ✅ OK | ⭐ Good | ⭐⭐ VeryGood | 🤩 Amazing | 🔖 Bookmarked2Read  
+> 📄 Blog | 💭 Chat | 📹 Video | 📚 Book
