@@ -1,5 +1,20 @@
-## 📖 Theoretical Background
-| Grade |Lang | Type| Links and Subjects |
+<h1 align="center">📖 Theoretical 📖</h1>
+
+#### Grade
+| Keys |✅|⭐|⭐⭐|🤩|🔖|
+|:-----|--|--|---|--|-|
+| Description | OK | Good | VeryGood | Amazing | Bookmarked2Read |
+
+#### Type
+| Keys |📄|💭|📹|📚|
+|:-----|--|--|---|--|
+| Description | Blog | Chat | Video | Book_&_ScientificPapers |
+
+
+
+## 00-Libft
+
+| Grade |Lang | Type| Links |
 |:---------:|:---:|:---:|--------------------|
 |⭐⭐| 🇺🇸 | 📄 |[1](https://medium.com/@meghamohan/all-about-static-libraries-in-c-cea57990c495)|  
 |⭐⭐| 🇺🇸 | 📄 |[2](https://www.linkedin.com/pulse/static-libraries-c-ignacio-chitnisky/)|  
@@ -9,6 +24,3 @@
 |⭐⭐| 🇺🇸 | 📄 |[6](https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_C_libraries.html)|  
 |⭐⭐| 🇺🇸 | 📄 |[7](https://www.ibm.com/docs/en/zos/2.4.0?topic=descriptions-ar-create-maintain-library-archives)|  
 |⭐⭐| 🇺🇸 | 📄 |[8](https://docencia.ac.upc.edu/FIB/USO/Bibliografia/unix-c-libraries.html)|  
-
-> ✅ OK | ⭐ Good | ⭐⭐ VeryGood | 🤩 Amazing | 🔖 Bookmarked2Read  
-> 📄 Blog | 💭 Chat | 📹 Video | 📚 Book_&_ScientificPapers
