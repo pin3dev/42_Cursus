@@ -26,3 +26,17 @@
 > 📄 Blog | 💭 Chat | 📹 Video | 📚 Book
 
 ## 01-ft_Printf
+
+| Grade |Lang | Type| Links |
+|:---------:|:---:|:---:|--------------------|
+|✅| 🇺🇸 | 📚 |[Variadic functions](https://en.cppreference.com/w/c/variadic)|  
+|🤩| 🇺🇸 | 📹 |[What are variadic functions (va_list) in C?](https://www.youtube.com/watch?v=oDC208zvsdg)|  
+|🤩| 🇺🇸 | 📄 |[Variadic Functions in C](https://www.tutorialspoint.com/cprogramming/c_variadic_functions.htm)|  
+|🤩| 🇺🇸 | 📄 |[Variadic in C](https://dev.to/pauljlucas/variadic-functions-in-c-53ml)|  
+|🤩| 🇺🇸 | 📄 |[Format Specifiers in C](https://www.geeksforgeeks.org/format-specifiers-in-c/)|  
+|⭐| 🇺🇸 | 📄 |[Format Specifiers in C](https://www.tutorialspoint.com/cprogramming/c_format_specifiers.htm)| 
+|⭐| 🇺🇸 | 📄 |[C printf-Style Format Codes](https://www.nv5geospatialsoftware.com/docs/Format_Codes_CPrintf.html)|  
+|🤩| 🇺🇸 | 📄 |[Format Specifiers In C](https://unstop.com/blog/format-specifiers-in-c)|
+
+> ✅ OK | ⭐ Good | ⭐⭐ VeryGood | 🤩 Amazing | 🔖 Bookmarked2Read  
+> 📄 Blog | 💭 Chat | 📹 Video | 📚 Book
