@@ -40,3 +40,13 @@
 
 > ✅ OK | ⭐ Good | ⭐⭐ VeryGood | 🤩 Amazing | 🔖 Bookmarked2Read  
 > 📄 Blog | 💭 Chat | 📹 Video | 📚 Book
+
+
+## 01-Born2BeRoot
+
+| Grade |Lang | Type| Links |
+|:---------:|:---:|:---:|--------------------|
+|✅| 🇺🇸 | 📚 |[]()|  
+
+> ✅ OK | ⭐ Good | ⭐⭐ VeryGood | 🤩 Amazing | 🔖 Bookmarked2Read  
+> 📄 Blog | 💭 Chat | 📹 Video | 📚 Book
