@@ -1,4 +1,4 @@
-## 🕸️ Pre-requisites
+## 🕸️ Pre-requisites <a id="requisites"></a>
 
 In order to implement the project, it is essential to have 
 solid knowledge of the following subjects:
@@ -12,7 +12,7 @@ solid knowledge of the following subjects:
 * Basic Programming Skills.
 
 
-## 📚 Library
+## 📚 Library <a id="library"></a>
 
 All theoretical resources and materials used in the project are linked below and organized by topic. 
 
