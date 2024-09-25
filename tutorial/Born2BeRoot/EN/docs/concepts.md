@@ -1,10 +1,10 @@
 ## 🖥️ Virtual Machine <a id="vm"></a>
 ## 📟 Operating Systems <a id="os"></a>
 ## 🧰 Packaging Tool <a id="pack"></a>
-## 🛡️ Security System <a id="ss"></a>
-### Security Module
-### Password Policy
-### Firewall
-### SSH
-## ⛽ Logical Volume Manager
-## 🛤️ Automation
+## 🛡️ Security System <a id="ssystem"></a>
+### Security Module <a id="smodule"></a>
+### Password Policy <a id="password"></a>
+### Firewall <a id="firewall"></a>
+### SSH <a id="ssh"></a>
+## ⛽ Logical Volume Manager <a id="lvm"></a>
+## 🛤️ Automation <a id="automation"></a>
