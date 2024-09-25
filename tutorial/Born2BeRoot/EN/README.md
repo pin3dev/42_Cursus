@@ -1,22 +1,5 @@
 ## 🗂️ Sidebar
 
-## 🕸️ Pre-requisites
-
-In order to implement the project, it is essential to have 
-solid knowledge of the following subjects:
-* Virtual Machine: `Virtual Box`
-* Operating Systems: `Debian` or `Rocky`
-* Network Security: `Firewalls`, `SSH`
-* Scripting and Automation: `Shell scripting`, `Cron` 
-* Networking Knowledge: `TCP/IP`, `routing`
-* System Monitoring: `Procfs file system access`
-* Vulnerability Management: `Log Monitoring`, `PAM` and `Sudoers file`
-* Basic Programming Skills.
-
-
-## 📚 Library
-
-All theoretical resources and materials used in the project are linked below and organized by topic. 
-
-<h3 align="center"><a href="https://github.com/pin3dev/42_Cursus/tree/main/library/#01-Born2BeRoot">-----Born2BeRoot Theoretical-----</a></h3>
-
+- Introduction
+  - [Pre-requisites](https://github.com/pin3dev/42_Cursus/blob/2621097a01f089395166764cfe984a8e62c64794/tutorial/Born2BeRoot/EN/docs/toStudy.md/#requisites)
+  - [Library](https://github.com/pin3dev/42_Cursus/blob/2621097a01f089395166764cfe984a8e62c64794/tutorial/Born2BeRoot/EN/docs/toStudy.md/#library)
