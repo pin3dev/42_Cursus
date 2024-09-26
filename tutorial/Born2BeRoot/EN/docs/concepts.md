@@ -1,6 +1,6 @@
 ## 🖥️ Virtual Machine <a id="vm"></a>
 
-### What is a Virtual Machine? <a id="vm-definition"></a>  
+### What is a Virtual Machine?
 Let's start with the basics: **virtual machines (VMs)** are virtual environments created by software that simulate a complete additional operating system within your physical computer.  
 
 Essentially, it's like having a **virtual computer inside your physical computer**. These virtual machines use a type of **virtualization software**, known as a **hypervisor**, to manage and share **hardware resources** such as CPU, memory, and storage across multiple VMs.
@@ -9,14 +9,14 @@ Essentially, it's like having a **virtual computer inside your physical computer
     <img src="https://webimages.mongodb.com/_com_assets/cms/lh54s33za1fuqrg98-VM.jpg?auto=format%252Ccompress"/>
 </p>
 
-### Why use Virtual Machines? <a id="vm-purpose"></a>  
+### Why use Virtual Machines?
 The major advantage of virtual machines is their ability to allow **multiple operating systems** and **applications** to run simultaneously on a single physical computer, as if they were separate and isolated computers. Each VM has its own **operating system**, **virtualized hardware** (including resources like **disk**, **memory**, and **network interfaces**), and functions **independently**. 
 
 This flexibility allows for `better utilization of hardware resources`, ensuring that previously underused CPU, memory, and storage can be shared efficiently among different systems. Furthermore, because VMs are not tied to specific physical hardware, they provide `hardware independence`, which results in `cost savings`. You can run multiple systems or legacy software on the same machine, without needing to invest in new hardware.
 
 Another significant benefit of virtual machines is the `greater control` they offer. They create a perfect environment for testing different software configurations, running **isolated servers**, and experimenting without affecting the rest of the system. This makes VMs ideal for **development** and **testing** environments, as well as for running applications in **secure, isolated** setups, increasing **security** since issues in one VM don’t spill over into others.
 
-### Considerations <a id="vm-considerations"></a>  
+### Considerations  
 However, it’s important to keep in mind that this isolation and virtualization can sometimes result in **performance impacts**, as the physical resources are shared among several virtual machines. Depending on the workload, running multiple VMs simultaneously can consume a significant amount of **memory** and **processing power**.
 
 ## 📟 Operating Systems <a id="os"></a>
