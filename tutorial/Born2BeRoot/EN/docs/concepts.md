@@ -26,7 +26,7 @@ However, it’s important to keep in mind that this isolation and virtualization
 
 Additionally, operating systems offer different ways for users to interact with the system, such as **graphical user interfaces** (GUI) and **command-line interfaces** (CLI). These interfaces allow users to perform tasks, configure the system, and operate applications in an intuitive way or through more advanced commands. Among other essential functions, operating systems ensure **security**, efficient management of files and folders, and monitor the execution of processes.
 
-### Difference Between Debian and CentOS <a id="debian-centos"></a>  
+### Difference Between Debian and CentOS 
 Although both are based on the Linux kernel, they have distinct philosophies and purposes:
 
 - **Debian**: Focused on being flexible and committed to **free software**, Debian is widely used on both desktops and servers. It is known for its **stability** and offers different versions, ranging from the most stable to the most experimental. It is ideal for environments that prioritize **freedom of choice**, where **security** and stability are crucial.
