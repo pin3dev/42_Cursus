@@ -40,7 +40,7 @@ An ISO Image is a file that contains all the data from an optical disc. In this 
 * Select the ISO file you downloaded
 * Click `OK`
 
-### Installing Debian OS
+### 4. Installing Debian OS
 * Selected VM created
 * Click on `Start`
 * Select `Install` on the Debian installation screen
@@ -74,7 +74,7 @@ An ISO Image is a file that contains all the data from an optical disc. In this 
    | Device for Boot Loader | `/dev/sda (ATA VBOX HARDDISK)` |  
    | Finish Installation | `Continue` |  
 
-### 4. Starting Debian
+### 5. Starting Debian
 
 * Select `Debian GNU/Linux` on the boot screen
 * Enter your disk encryption passphrase (`yourstrongpassword`)
