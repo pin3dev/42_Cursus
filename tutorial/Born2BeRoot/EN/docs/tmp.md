@@ -216,39 +216,23 @@ A security system that monitors and controls incoming and outgoing network traff
 
 ### 5. **Configuring Sudo Password Security Policy**
 
-1. **Create the Sudo Security Configuration File**:
-   Use the following command to create a new configuration file for defining sudo password security policies:
+* Create the Sudo security configuration file for defining sudo password security policies:
    ```bash
    sudo touch /etc/sudoers.d/sudo_config
    ```
 
-2. **Create a Directory for Logging Sudo Commands**:
-   Create a directory to store the logs of all commands executed with sudo privileges:
+* Create a directory for logging Sudo commands, to store the logs of all commands executed with sudo privileges:
    ```bash
    sudo mkdir /var/log/sudo
    ```
-
-   <aside>
-   <img src="/icons/checkmark_green.svg" alt="/icons/checkmark_green.svg" width="40px" /> **Project Rules:**
-   Ensure that logging and policy enforcement adhere to your project guidelines.
-   </aside>
-
-3. **Edit the Sudo Security Configuration File**:
-   Open the newly created file with your preferred text editor:
-   ```bash
-   sudo nano /etc/sudoers.d/sudo_config
-   ```
-   or
+* Edit the Sudo security configuration file:
    ```bash
    sudo vim /etc/sudoers.d/sudo_config
    ```
-
-4. **Insert the Following Code into the File**:
-   Add the following configuration settings to enforce security policies for sudo access:
-
+* Insert the following configuration settings code into the file to enforce security policies for sudo access:
    ```bash
    Defaults  passwd_tries=3
-   Defaults  badpass_message="Ta com dedo podre? Tenta de novo!Mensaje de error personalizadoMensaje de error personalizadoMensaje de error personalizadoMensaje de error personalizados"
+   Defaults  badpass_message="YOUR ERROR MSG HERE"
    Defaults  logfile="/var/log/sudo/sudo_config"
    Defaults  log_input, log_output
    Defaults  iolog_dir="/var/log/sudo"
@@ -256,62 +240,61 @@ A security system that monitors and controls incoming and outgoing network traff
    Defaults  secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
    ```
 
-   ### Explanation of Configuration:
+* Save the changes and close the editor.
+  
+    > 💡 Once you've added the configuration, save the file and exit the editor. This will apply the password policy and command logging for all sudo activities.
 
-   - **passwd_tries=3**: Limits the number of incorrect password attempts to 3.
-   - **badpass_message**: Displays a custom message when an incorrect password is entered.
-   - **logfile**: Specifies the log file where all sudo command activity will be recorded.
-   - **log_input, log_output**: Logs both input and output of sudo commands for auditing purposes.
-   - **iolog_dir**: Defines the directory for storing input/output logs.
-   - **requiretty**: Ensures that sudo commands are only executed from a terminal.
-   - **secure_path**: Defines the path for secure access to system binaries and prevents malicious programs from overriding important commands.
+#### Configuration Explanations:
 
-5. **Save and Exit**:
-   Once you've added the configuration, save the file and exit the editor. This will apply the password policy and command logging for all sudo activities.
+> 🧠 **passwd_tries=3**:  
+    Limits the number of incorrect password attempts to 3.  
+> 🧠 **badpass_message**:  
+    Displays a custom message when an incorrect password is entered.  
+> 🧠 **logfile**:  
+    Specifies the log file where all sudo command activity will be recorded.  
+> 🧠 **log_input, log_output**:  
+    Logs both input and output of sudo commands for auditing purposes.  
+> 🧠 **iolog_dir**:  
+    Defines the directory for storing input/output logs.  
+> 🧠 **requiretty**:  
+    Ensures that sudo commands are only executed from a terminal.  
+> 🧠 **secure_path**:  
+    Defines the path for secure access to system binaries and prevents malicious programs from overriding important commands.  
 
 
 ### 6. **Configuring Non-Admin Password Security Policy**
 
-1. **Edit the Login Configuration File**:
-   Use the following command to open the `login.defs` file for editing:
+* Edit the Login configuration file `login.defs`:
    ```bash
    sudo vim /etc/login.defs
    ```
+* **Locate and Modify Password Settings**:
+  | BEFORE | AFTER |
+  |--------|-------|
+  | `PASS_MAX_DAYS 9999` | `PASS_MAX_DAYS 30` |
+  | `PASS_MIN_DAYS 0` | `PASS_MIN_DAYS 2` |
+  | `PASS_WARN_AGE 7` | `PASS_WARN_AGE 7` | 
 
-2. **Locate and Modify Password Settings**:
-   Find the following lines in the file:
-   - `PASS_MAX_DAYS 9999`
-   - `PASS_MIN_DAYS 0`
-   - `PASS_WARN_AGE 7`
-
-   Modify the settings as follows:
-   - `PASS_MAX_DAYS 30` → Maximum password age (days) before expiration is 30 days.
-   - `PASS_MIN_DAYS 2` → Minimum days before a password can be changed is 2 days.
-   - Keep `PASS_WARN_AGE 7` unchanged, which warns the user 7 days before password expiration.
-
-   <aside>
-   <img src="/icons/checkmark_green.svg" alt="/icons/checkmark_green.svg" width="40px" /> **Project Rules:**
-   This configuration ensures compliance with the project's security policy for password expiration.
-   </aside>
-
-3. **Install the PAM Password Quality Library**:
-   Use this command to install the PAM (Pluggable Authentication Module) password quality library:
+* Install the PAM password quality library:
    ```bash
    sudo apt-get install libpam-pwquality
    ```
+  > 💡 The `-y` flag automatically confirms the installation prompts.
 
-4. **Confirm the Installation**:
-   Type `y` when prompted to confirm the installation.
-
-5. **Edit the PAM Password Security Configuration**:
-   Open the common password file to configure password policies:
-   ```bash
-   sudo nano /etc/pam.d/common-password
-   ```
-   or
+* Edit the PAM password security configuration file:
    ```bash
    sudo vim /etc/pam.d/common-password
    ```
+
+#### Configuration Explanations:
+
+> 🧠 **PASS_MAX_DAYS 30**:  
+    Maximum password age (days) before expiration is 30 days.  
+> 🧠 **PASS_MIN_DAYS 2**:  
+    Minimum days before a password can be changed is 2 days.  
+> 🧠 **PASS_WARN_AGE 7**:  
+    Warns the user 7 days before password expiration..  
+
 
 6. **Locate the Password Configuration Line**:
    Find the line that looks like this:
