@@ -83,8 +83,16 @@ Additionally, SSH allows authentication via passwords or encryption keys, adding
 
 ## ⛽ Logical Volume Manager <a id="lvm"></a>
 
-LVM (Logical Volume Manager) helps manage storage space on Linux in a more flexible way. With LVM, it's possible to resize and move disk partitions, or even combine multiple physical disks into a single logical volume, without having to interrupt the system's operation.
-Basically, if your storage starts to fill up, you can easily add more space, like extending a drawer in an existing cabinet without needing to dismantle it. So, even though it may sound advanced, LVM simplifies life, especially when managing large volumes of data or when the storage structure needs to be adjusted over time.
+**LVM (Logical Volume Manager)** helps manage storage space on Linux in a more flexible way. It allows resizing and moving disk partitions, or even combining multiple physical disks into a single logical volume, without interrupting the system's operation. Partitions, in this context, are digital divisions of the storage unit (whether HDD or SSD) that organize memory into separate blocks. Each block can have specific user control and other functionalities, such as separating the operating system (OS) from personal files.
+
+The foundation of the LVM scheme begins with the **PV (Physical Volume)**, which represents the physical disks (HDDs or SSDs) where the data will be effectively stored. These PVs are the fundamental building blocks of storage.
+
+The **VG (Volume Group)**, or volume groups, are combinations of multiple PVs, forming a storage "pool." This pool can be expanded indefinitely by adding more PVs. In summary, the VG is the sum of the capacity of all PVs, creating a storage space that can grow as needed.
+
+Within the VGs, we have **LV (Logical Volume)**, or logical volumes, which are created to manage the data as if it were a single continuous volume. Even though the data may be distributed physically in different locations, LVM makes it appear as if it is stored continuously. These logical volumes act as virtual partitions, offering greater flexibility and control over storage space.
+
+For example, if your storage begins to fill up, you can easily add more space, much like extending a drawer in a cabinet without needing to dismantle it. This makes **LVM**, although it may seem advanced, a practical and efficient solution, especially when dealing with large volumes of data or when the storage structure needs to be adjusted over time.
+
 
 ## 🛤️ Automation <a id="automation"></a>
 
