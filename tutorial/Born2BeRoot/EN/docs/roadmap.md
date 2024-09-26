@@ -89,3 +89,5 @@ An ISO Image is a file that contains all the data from an optical disc. In this 
    ```
   > 🧠 What is `lsblk`?  
   The **`lsblk`** command displays information about all available block devices (disks), such as their size and mount points, in a tree format.
+
+## ⤵️ Downloads & Install <a id="downloading"></a>
