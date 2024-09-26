@@ -10,11 +10,11 @@ This repository contains tutorials for the `Born2BeRoot` project in multiple lan
 Click below to access the tutorial in your preferred language.  
 
 <p align="center">
-  <a href="https://github.com/pin3dev/42_Cursus/tree/main/tutorial/Born2BeRoot/BR">
-    <img src="https://img.shields.io/badge/language%3A-PT%2FBR%F0%9F%87%A7%F0%9F%87%B7-gray?style=for-the-badge"/>
-  </a>
   <a href="https://github.com/pin3dev/42_Cursus/tree/main/tutorial/Born2BeRoot/EN">
     <img src="https://img.shields.io/badge/language%3A-EN%2FUSA%F0%9F%87%BA%F0%9F%87%B8-gray?style=for-the-badge"/>
+  </a>
+  <a href="https://github.com/pin3dev/42_Cursus/tree/main/tutorial/Born2BeRoot/BR">
+    <img src="https://img.shields.io/badge/language%3A-PT%2FBR%F0%9F%87%A7%F0%9F%87%B7-gray?style=for-the-badge"/>
   </a>
 </p>
 
