@@ -242,7 +242,7 @@ The numeric identifier assigned to a group. Each group in a Linux system is asso
     ```bash
     sudo service ssh restart
     ```
-* Verify SSH Service to ensure the updates were applied:
+* Verify SSH Service to ensure the updates were applied:  
     Option 1  
     ```bash
     sudo service ssh status
@@ -322,7 +322,7 @@ An open-source implementation of the SSH protocol. It provides secure network op
    #### Configuration Explanations:
 
    > ✒️ **passwd_tries**:  
-    Limits the number of incorrect password attempts to 3.  
+    Limits the number of incorrect password.  
    > ✒️ **badpass_message**:  
     Displays a custom message when an incorrect password is entered.  
    > ✒️ **logfile**:  
@@ -571,7 +571,7 @@ An open-source implementation of the SSH protocol. It provides secure network op
 
 ### 9. **Configuring Crontab**
 
-* Set up a cron job at regular intervals (every 10 minutes)**:
+* Set up a cron job at regular intervals (every 10 minutes):
    ```bash
    sudo crontab -u root -e
    ```
@@ -602,7 +602,7 @@ An open-source implementation of the SSH protocol. It provides secure network op
 
 ### 10. **Closing UDP Port 68**
 
-* Check if UDP Port 68 is Open**:
+* Check if UDP Port 68 is Open:
      ```bash
      ss -tunlp
      ```
