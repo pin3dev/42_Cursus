@@ -558,16 +558,6 @@ A scheduling utility in Unix-based systems that allows users to run scripts or c
   | `netmask {your_netmask}` | `netmask 255.255.0.0` |
   | `gateway {your_broadcast_address}` | `gateway 10.11.255.255` |
 
-
-* Change DHCP to Static:
-   - Replace the **DHCP** setting with **static**, like this:
-     ```bash
-     iface eth0 inet static
-         address {your_ip_address}
-         netmask {your_netmask}
-         gateway {your_broadcast_address}
-     ```
-
 * Restart the network services:
      ```bash
      sudo systemctl restart networking
