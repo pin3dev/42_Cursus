@@ -16,7 +16,11 @@ solid knowledge of the following subjects:
 
 All theoretical resources and materials used in the project are linked below and organized by topic. 
 
-<h3 align="center"><a href="https://github.com/pin3dev/42_Cursus/tree/main/library/#01-Born2BeRoot">-----Born2BeRoot Theoretical-----</a></h3>
+<p align="center"> 
+  <a href="https://github.com/pin3dev/42_Cursus/tree/main/library/#01-Born2BeRoot">
+    <img src="https://img.shields.io/badge/Born2BeRoot_Library-gray?style=for-the-badge"/>
+  </a>
+</p>
 
 <p align="center">
 <a href="https://github.com/pin3dev/42_Cursus/blob/main/tutorial/Born2BeRoot/EN/docs/remarks.md">Next ➡️ </a>
