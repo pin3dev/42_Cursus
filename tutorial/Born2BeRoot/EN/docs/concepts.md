@@ -83,6 +83,10 @@ Additionally, SSH allows authentication via passwords or encryption keys, adding
 
 **LVM (Logical Volume Manager)** helps manage storage space on Linux in a more flexible way. It allows resizing and moving disk partitions, or even combining multiple physical disks into a single logical volume, without interrupting the system's operation. Partitions, in this context, are digital divisions of the storage unit (whether HDD or SSD) that organize memory into separate blocks. Each block can have specific user control and other functionalities, such as separating the operating system (OS) from personal files.
 
+<p align="center">
+    <img src="https://contabo.com/blog/wp-content/uploads/2023/03/image.png.webp"/>
+</p>
+
 The foundation of the LVM scheme begins with the **PV (Physical Volume)**, which represents the physical disks (HDDs or SSDs) where the data will be effectively stored. These PVs are the fundamental building blocks of storage.
 
 The **VG (Volume Group)**, or volume groups, are combinations of multiple PVs, forming a storage "pool." This pool can be expanded indefinitely by adding more PVs. In summary, the VG is the sum of the capacity of all PVs, creating a storage space that can grow as needed.
