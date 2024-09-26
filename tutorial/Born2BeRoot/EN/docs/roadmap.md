@@ -74,7 +74,8 @@ An ISO Image is a file that contains all the data from an optical disc. In this 
    | Device for Boot Loader | `/dev/sda (ATA VBOX HARDDISK)` |  
    | Finish Installation | `Continue` |  
 
-### 4. Starting Debian  
+### 4. Starting Debian
+
 * Select `Debian GNU/Linux` on the boot screen
 * Enter your disk encryption passphrase (`yourstrongpassword`)
 * Log in with your user credentials:
@@ -82,11 +83,9 @@ An ISO Image is a file that contains all the data from an optical disc. In this 
    |-------|---------|  
    | Username | `youruser` |  
    | Password | `654321` | 
-
 * Open a terminal and run the command:
    ```
    lsblk
    ```
-
   > 🧠 What is `lsblk`?  
   The **`lsblk`** command displays information about all available block devices (disks), such as their size and mount points, in a tree format.
