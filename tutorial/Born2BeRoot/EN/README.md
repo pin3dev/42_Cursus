@@ -14,4 +14,9 @@
     - [Firewall](https://github.com/pin3dev/42_Cursus/blob/main/tutorial/Born2BeRoot/EN/docs/concepts.md/#firewall)
     - [SSH](https://github.com/pin3dev/42_Cursus/blob/main/tutorial/Born2BeRoot/EN/docs/concepts.md/#ssh)
   - [Logical Volume Manager](https://github.com/pin3dev/42_Cursus/blob/main/tutorial/Born2BeRoot/EN/docs/concepts.md/#lvm)
-  - [Automation](https://github.com/pin3dev/42_Cursus/blob/main/tutorial/Born2BeRoot/EN/docs/concepts.md/#automation)
+  - [Automation](https://github.com/pin3dev/42_Cursus/blob/main/tutorial/Born2BeRoot/EN/docs/concepts.md/#automation) 
+-  Roadmap  
+    -  Downloads  
+    -  SO Install  
+    -  Configs  
+    -  Eval  
