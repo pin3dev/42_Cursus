@@ -1,4 +1,4 @@
-## ⤵️ Downloading <a id="downloading"></a>
+## ⤵️ Downloads & Install <a id="downloading"></a>
 
 ### 1. Downloading VirtualBox
 * Go to this [link](https://www.virtualbox.org/wiki/Downloads)
