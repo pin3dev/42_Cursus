@@ -17,5 +17,5 @@
   - [Automation](https://github.com/pin3dev/42_Cursus/blob/main/tutorial/Born2BeRoot/EN/docs/concepts.md/#automation) 
 -  Roadmap  
     -  [Downloads & Install](https://github.com/pin3dev/42_Cursus/blob/main/tutorial/Born2BeRoot/EN/docs/roadmap.md/#downloading) 
-    -  [Config Files](https://github.com/pin3dev/42_Cursus/blob/main/tutorial/Born2BeRoot/EN/docs/roadmap.md/#configs)  
+    -  [Config Files](https://github.com/pin3dev/42_Cursus/blob/main/tutorial/Born2BeRoot/EN/docs/roadmap.md/#config)  
     -  Eval  
