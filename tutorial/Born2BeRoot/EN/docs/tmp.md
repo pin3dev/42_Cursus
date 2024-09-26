@@ -239,28 +239,27 @@ A security system that monitors and controls incoming and outgoing network traff
    Defaults  requiretty
    Defaults  secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
    ```
+   #### Configuration Explanations:
+
+   > ✒️ **passwd_tries**:  
+    Limits the number of incorrect password attempts to 3.  
+   > ✒️ **badpass_message**:  
+    Displays a custom message when an incorrect password is entered.  
+   > ✒️ **logfile**:  
+    Specifies the log file where all sudo command activity will be recorded.  
+   > ✒️ **log_input, log_output**:  
+    Logs both input and output of sudo commands for auditing purposes.  
+   > ✒️ **iolog_dir**:  
+    Defines the directory for storing input/output logs.  
+   > ✒️ **requiretty**:  
+    Ensures that sudo commands are only executed from a terminal.  
+   > ✒️ **secure_path**:  
+    Defines the path for secure access to system binaries and prevents malicious programs from overriding important commands. 
 
 * Save the changes and close the editor.
   
     > 💡 Once you've added the configuration, save the file and exit the editor. This will apply the password policy and command logging for all sudo activities.
-
-#### Configuration Explanations:
-
-> 🧠 **passwd_tries=3**:  
-    Limits the number of incorrect password attempts to 3.  
-> 🧠 **badpass_message**:  
-    Displays a custom message when an incorrect password is entered.  
-> 🧠 **logfile**:  
-    Specifies the log file where all sudo command activity will be recorded.  
-> 🧠 **log_input, log_output**:  
-    Logs both input and output of sudo commands for auditing purposes.  
-> 🧠 **iolog_dir**:  
-    Defines the directory for storing input/output logs.  
-> 🧠 **requiretty**:  
-    Ensures that sudo commands are only executed from a terminal.  
-> 🧠 **secure_path**:  
-    Defines the path for secure access to system binaries and prevents malicious programs from overriding important commands.  
-
+ 
 
 ### 6. **Configuring Non-Admin Password Security Policy**
 
@@ -273,7 +272,16 @@ A security system that monitors and controls incoming and outgoing network traff
   |--------|-------|
   | `PASS_MAX_DAYS 9999` | `PASS_MAX_DAYS 30` |
   | `PASS_MIN_DAYS 0` | `PASS_MIN_DAYS 2` |
-  | `PASS_WARN_AGE 7` | `PASS_WARN_AGE 7` | 
+  | `PASS_WARN_AGE 7` | `PASS_WARN_AGE 7` |
+
+   #### Configuration Explanations:
+
+   > ✒️ **PASS_MAX_DAYS**:  
+    Maximum password age (days) before expiration is 30 days.  
+   > ✒️ **PASS_MIN_DAYS**:  
+    Minimum days before a password can be changed is 2 days.  
+   > ✒️ **PASS_WARN_AGE**:  
+    Warns the user 7 days before password expiration..  
 
 * Install the PAM password quality library:
    ```bash
@@ -285,25 +293,16 @@ A security system that monitors and controls incoming and outgoing network traff
    ```bash
    sudo vim /etc/pam.d/common-password
    ```
-
-#### Configuration Explanations:
-
-> 🧠 **PASS_MAX_DAYS 30**:  
-    Maximum password age (days) before expiration is 30 days.  
-> 🧠 **PASS_MIN_DAYS 2**:  
-    Minimum days before a password can be changed is 2 days.  
-> 🧠 **PASS_WARN_AGE 7**:  
-    Warns the user 7 days before password expiration..  
-
-
-6. **Locate the Password Configuration Line**:
-   Find the line that looks like this:
-   - `password  requisite  pam_deny.so` 
-   - or `password  requisite  pam_deny.so retry=3`
-
-7. **Add the Following Password Security Rules**:
-   Insert the following configuration to enforce strict password requirements:
-
+* Locate the password configuration line:  
+     Option 1  
+     ```bash
+     password  requisite  pam_deny.so
+     ```  
+     Option 2  
+     ```bash
+      password  requisite  pam_deny.so retry=3
+     ``` 
+* Add the password security rules to enforce strict password requirements:
    ```bash
    minlen=10
    ucredit=-1
@@ -315,32 +314,34 @@ A security system that monitors and controls incoming and outgoing network traff
    enforce_for_root
    ```
 
-   ### Explanation of Configuration:
-   - **minlen=10**: Minimum password length of 10 characters.
-   - **ucredit=-1**: Requires at least one uppercase letter.
-   - **dcredit=-1**: Requires at least one digit.
-   - **lcredit=-1**: Requires at least one lowercase letter.
-   - **maxrepeat=3**: Limits repeating characters to a maximum of 3.
-   - **reject_username**: Prevents the username from being used in the password.
-   - **difok=7**: Requires at least 7 different characters in the new password.
-   - **enforce_for_root**: Enforces these rules for the root user as well.
+   #### Configuration Explanations:
 
-8. **Update User Password**:
-   To change the password of the current user:
+   > ✒️ **minlen**:  
+    Minimum password length of 10 characters.  
+   > ✒️ **ucredit**:  
+    Requires at least one uppercase letter.  
+   > ✒️ **dcredit**:  
+    Requires at least one digit.  
+   > ✒️ **lcredit**:  
+    Requires at least one lowercase letter.  
+   > ✒️ **maxrepeat**:  
+    Limits repeating characters to a maximum of 3.  
+   > ✒️ **reject_username**:  
+    Prevents the username from being used in the password.  
+   > ✒️ **difok**:  
+    Requires at least 7 different characters in the new password.  
+   > ✒️ **enforce_for_root**:  
+    Enforces these rules for the root user as well.  
+
+* Update current user password:  
+   Option 1
    ```bash
    passwd
-   ```
-
-   Or to change another user's password:
+   ```  
+   Option 2
    ```bash
    sudo passwd USER_NAME
    ```
-
-   <aside>
-   <img src="/icons/checkmark_green.svg" alt="/icons/checkmark_green.svg" width="40px" /> **Project Rules:**
-   This configuration ensures strong password policies are applied to all users, including root.
-   </aside>
-
 
 ### 7. **Conectando a máquina virtual com a máquina física via SSH**
 
