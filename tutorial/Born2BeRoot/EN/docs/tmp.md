@@ -88,54 +88,46 @@ The numeric identifier assigned to a group. Each group in a Linux system is asso
 
 ### 2. **Installing Git and VIM:**
 
-1. **Install Git** by running the following command:
+* Install Git:
    ```bash
    apt-get install git -y
    ```
-   The `-y` flag automatically confirms the installation prompts.
+  > 💡 The `-y` flag automatically confirms the installation prompts.
 
-2. **Verify Git Installation** by checking its version:
+* Verify Git Installation:
    ```bash
    git --version
    ```
-   This command will display the installed version of Git, confirming that the installation was successful.
+   > 💡 This command will display the installed version of Git, confirming that the installation was successful.
 
-3. **Install VIM** (a powerful text editor) with the following command:
+* Install VIM (a powerful text editor):
    ```bash
    apt-get install vim
    ```
 
-
 ### 3. **Installing and Configuring SSH**
 
-1. **Update the APT Repository** by running the following command:
+* Check for available updates:
    ```bash
    sudo apt update
    ```
-   This ensures that your system has the latest package information.
-
-2. **Install OpenSSH Server** with:
+* Install OpenSSH Server:
    ```bash
    sudo apt install openssh-server
    ```
-   Press **Y** to confirm the installation when prompted.
+* Press `Y` to confirm the installation when prompted.
 
-3. **Check SSH Service Status** to ensure it’s running:
+* Check SSH Service Status:
    ```bash
    sudo service ssh status
    ```
-   This should return a status showing that the SSH service is active and running.
+    > 💡 This should return a status showing that the SSH service is active and running.
 
-4. **Edit SSH Configuration** to customize your SSH settings:
-   ```bash
+* Edit SSH Configuration to customize your SSH settings:  
+  ```bash
    sudo vim /etc/ssh/sshd_config
    ```
-   or
-   ```bash
-   sudo nano /etc/ssh/sshd_config
-   ```
-
-5. **Modify SSH Port:**
+* **Modify SSH Port:**
    - Locate the line:  
      `#Port 22`
    - **Uncomment** the line by removing the `#` and change it to:  
