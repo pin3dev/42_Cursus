@@ -343,66 +343,58 @@ A security system that monitors and controls incoming and outgoing network traff
    sudo passwd USER_NAME
    ```
 
-### 7. **Conectando a máquina virtual com a máquina física via SSH**
+### 7. **Connecting Virtual Machine to Physical Machine via SSH**
+   * Open VirtualBox and select the virtual machine you want to connect to, in this case, `Born2beroot`.
+   * Go to `Settings`
+   * Go to `Network`
+   * Go to `Adapter 1`
+   * Change the `Attached to` setting to `Bridged Adapter`
+> 💡 This will allow the VM to use the same network as the host machine.
+   * Proceed to `Advanced`
+   * Click on `Port Forwarding`
+   * **Add a new rule**:
+     | FIELD | VALUE |
+     |--------|-------|
+     | Name | `Rule 1` |
+     | Protocol | `TCP` |
+     | Host IP | Leave it blank |
+     | Host Port | `4242` |
+     | Guest IP | Leave it blank |
+     | Guest Port | `4242` |
+   
+  > 💡 
 
-#### 1. Configuração no VirtualBox:
-   1. **Abra o VirtualBox** e selecione a máquina virtual que deseja conectar (neste caso, "Born2beroot").
-   2. Vá para **Settings (Configurações)** → **Network (Rede)** → **Adapter 1 (Adaptador 1)**.
-   3. **Mude o Attached to (Conectado a)** para "Bridged Adapter (Adaptador em ponte)". Isso permitirá que a VM use a mesma rede da máquina host.
-   4. **Avance para "Advanced"** e clique em **Port Forwarding (Encaminhamento de porta)**.
-   5. **Adicione uma nova regra**:
-      - **Name:** “Rule 1”
-      - **Protocol:** “TCP”
-      - **Host IP:** Deixe em branco.
-      - **Host Port:** “4242”
-      - **Guest IP:** Deixe em branco.
-      - **Guest Port:** “4242”
-
-#### 2. Configuração na máquina real:
-   1. ***OPCIONAL:*** Para garantir que o SSH está funcionando corretamente, você pode reiniciar o serviço de SSH na máquina virtual:
+   * Restart the SSH service on the virtual machine:
       ```bash
       sudo systemctl restart ssh
       sudo service sshd status
       ```
-   2. **Na máquina virtual**: execute o seguinte comando para verificar o endereço IP da VM:
+   * Check the VM’s IP address:
       ```bash
       ip address
       ```
-      Anote o endereço IP que aparece após **inet**, como por exemplo: `inet 10.11.249.26`.
-   
-   3. **Na máquina física**:
-      Abra o terminal da máquina física (host) e conecte-se à máquina virtual usando o comando `ssh`:
+   > 💡 Note the IP address that appears after **inet**, for example: `inet 10.11.249.26`.  
+   * Open the terminal on the physical machine (host) and connect to the virtual machine:
       ```bash
-      ssh ivbatist@10.11.249.26 -p 4242
+      ssh youruser@10.11.249.26 -p 4242
       ```
-      - Substitua **ivbatist** pelo nome do usuário da sua máquina virtual.
-      - O **10.11.249.26** é o IP da sua máquina virtual (o número será diferente dependendo da sua rede).
-      - O **-p 4242** especifica a porta customizada que você configurou para o SSH.
+   > 💡 Replace `youruser` with the username of your virtual machine.  
+   > 💡 The `10.11.249.26` is the IP of your virtual machine (the number may vary depending on your network).  
+   > 💡 The `-p 4242` specifies the custom port you configured for SSH.  
+     
 
-
-### 8. **Creating and Configuring the Monitoring Script**
-1. **Navigate to the directory**:
-   First, navigate to the directory where the monitoring script will be created:
+### 8. **Monitoring Script**
+* Navigate to the directory where the monitoring script will be created:
    ```bash
    cd /usr/local/bin
    ```
 
-2. **Create and open the script file**:
-   Create and open the monitoring script for editing. Use `vim` or `nano`:
+* Create and open the script file:
    ```bash
    sudo vim monitoring.sh
    ```
 
-#### 🧠 **Project Rules:**
-
-![Project Image](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9203fb49-9a44-4181-a80d-bbc967b6f26a/WhatsApp_Image_2023-01-25_at_08.14.02.jpg)
-
-![Another Project Image](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2f24d310-2f92-4dee-b870-63de8489e0b3/(Born2beRoot)_en.subject_page-0009.jpg)
-
-
-3. **Insert the following script**:
-   Copy and paste the script below into the `monitoring.sh` file:
-
+* Insert the following script:
    ```bash
    #!/bin/bash
    
@@ -463,126 +455,111 @@ A security system that monitors and controls incoming and outgoing network traff
        Network: IP $ip ($mac)
        Sudo: $cmnd cmd"
    ```
+   
+   #### Configuration Explanations:
+   > ✒️ **grep**:  
+    Searches for a pattern in a file and displays all lines that contain that pattern.  
+      `-v`: Displays all lines that do NOT contain the pattern.  
+   > ✒️ **wc**:  
+    Used for counting lines, words, and characters in a file.  
+      `-l`: Counts the number of lines in the file.  
+   > ✒️ **uname**:  
+    Displays information about the operating system.  
+      `-a`: Shows all available system information.    
+   > ✒️ **df**:  
+    Shows the amount of available disk space on mounted filesystems.  
+      `-h`: Displays sizes in a human-readable format.    
+      `-m`: Displays sizes in megabytes.    
+   > ✒️ **vmstat**:  
+    Reports information about processes, memory, paging, block I/O, and CPU activity.  
+   > ✒️ **journalctl**:  
+    Retrieves logs from the system, including sudo command logs.  
 
----
+   > 💡 This script will monitor system architecture, CPU usage, memory, disk usage, TCP connections, and other details, and display the results every 10 minutes.  
 
-#### 🧠 **Explanation of Commands:**
+* Save the changes and close the editor.
 
-- **grep**: Searches for a pattern in a file and displays all lines that contain that pattern.
-  - `-v`: Displays all lines that do NOT contain the pattern.
-
-- **wc**: Used for counting lines, words, and characters in a file.
-  - `-l`: Counts the number of lines in the file.
-
-- **uname**: Displays information about the operating system.
-  - `-a`: Shows all available system information.
-
-- **df**: Shows the amount of available disk space on mounted filesystems.
-  - `-h`: Displays sizes in a human-readable format.
-  - `-m`: Displays sizes in megabytes.
-
-- **vmstat**: Reports information about processes, memory, paging, block I/O, and CPU activity.
-  
-- **journalctl**: Retrieves logs from the system, including sudo command logs.
-
-4. **Save and exit**:
-   After pasting the script, save and exit the file.
-
-5. **Make the script executable**:
-   To ensure the script can be executed, run the following command to make it executable:
+* Make the script executable:
    ```bash
    sudo chmod +x /usr/local/bin/monitoring.sh
    ```
 
-6. **Test the script**:
-   You can run the script manually to verify that it works:
+* Test the script manually to verify that it works:
    ```bash
    sudo ./monitoring.sh
    ```
 
-7. **Set up a cron job**:
-   To run this script at regular intervals (every 10 minutes), edit the root crontab:
+### 9. **Configuring Crontab**
+
+* Set up a cron job at regular intervals (every 10 minutes)**:
    ```bash
    sudo crontab -u root -e
    ```
 
-8. **Add the cron job**:
-   Add the following line to run the script every 10 minutes:
+* Add the cron job to run the script every 10 minutes, at the end of the crontab file:
    ```bash
-   */10 * * * * /usr/local/bin/monitoring.sh
+   */10 * * * * sleep $(who -b | awk -F: '{printf("%d"), $2%10}') && sh /home/ivbatist/monitoring.sh
    ```
 
-This script will monitor system architecture, CPU usage, memory, disk usage, TCP connections, and other details, and display the results every 10 minutes.
+   #### Configuration Explanations:
+   > ✒️ **`*/10 * * * *`**:  
+    Instructs the task to run every 10 minutes.  
+   > ✒️ **`sleep $(who -b | awk -F: '{printf("%d"), $2%10}')`**:  
+    Adds a delay based on the system's last boot time to prevent all tasks from running at the exact same time.  
+   > ✒️ **`sh /home/ivbatist/monitoring.sh`**:  
+    Specifies the command to execute, which in this case is the `monitoring.sh` script located at `/home/ivbatist/`.  
+
+* Save the changes and close the editor.
 
 
-
-
-
-### 9. **Configuring Crontab**
-
-#### 1. **Accessing the Crontab for the Root User**:
-   - In the terminal, run the following command to open the **crontab** configuration file for the **root** user:
-     ```bash
-     sudo crontab -u root -e
-     ```
-   - This will open the crontab editor where you can schedule tasks for the root user.
-
-#### 2. **Adding a New Scheduled Task**:
-   - Add the following line at the end of the crontab file:
-     ```bash
-     */10 * * * * sleep $(who -b | awk -F: '{printf("%d"), $2%10}') && sh /home/ivbatist/monitoring.sh
-     ```
-   - This line does the following:
-     - **`*/10 * * * *`**: Instructs the task to run every 10 minutes.
-     - **`sleep $(who -b | awk -F: '{printf("%d"), $2%10}')`**: Adds a delay based on the system's last boot time to prevent all tasks from running at the exact same time.
-     - **`sh /home/ivbatist/monitoring.sh`**: Specifies the command to execute, which in this case is the `monitoring.sh` script located at `/home/ivbatist/`.
-
-#### 3. **Saving and Exiting the Crontab**:
-   - After adding the line, save the file and exit the editor (usually using `:wq` in **vim** or **Ctrl + X** in **nano**).
-
-#### 4. **Verifying the Task is Registered Correctly**:
-   - To verify that the task has been successfully added to the **crontab**, run the following command:
+* Verify if the task is registered correctly:
      ```bash
      sudo crontab -l
      ```
-   - This will display all scheduled tasks for the **root** user, and you should see the line you just added.
+   > 💡 This will display all scheduled tasks for the **root** user, and you should see the line you just added.
 
-Now, every 10 minutes, the `monitoring.sh` script will be executed automatically as per the crontab configuration.
+   > 💡 Now, every 10 minutes, the `monitoring.sh` script will be executed automatically as per the crontab configuration.
 
-#### 🧠 **Crontab**: A scheduling utility in Unix-based systems that allows users to run scripts or commands at specified intervals. It works by using a cron daemon to periodically check the scheduled tasks and execute them.
+> 🧠 **Crontab**:  
+A scheduling utility in Unix-based systems that allows users to run scripts or commands at specified intervals. It works by using a cron daemon to periodically check the scheduled tasks and execute them.
 
 
 ### 10. **Closing UDP Port 68**
 
-#### 1. **Checking if UDP Port 68 is Open**:
-   - Run the following command to check if **UDP port 68** is open on your system:
+* Check if UDP Port 68 is Open**:
      ```bash
      ss -tunlp
      ```
-   - This command lists all open TCP/UDP ports and their associated processes. Look for port **68/UDP** to confirm if it's open.
+   > 💡 This command lists all open TCP/UDP ports and their associated processes. Look for port **68/UDP** to confirm if it's open.
 
-#### 2. **Finding Your IP and Broadcast Address**:
-   - Use the following command to display your IP address and other network details:
+* Finding your IP and broadcast address:
      ```bash
      ip address
      ```
-   - Look for your interface (usually **eth0** or **enp0s3**) and note the **inet** IP (e.g., `10.11.249.26/16`) and **brd** (broadcast) address.
+   > 💡 Look for your interface (usually **eth0** or **enp0s3**) and note the **inet** IP (e.g., `10.11.249.26/16`) and **brd** (broadcast) address.
 
-#### 3. **Checking Your Network Interface Details**:
-   - Run this command to confirm your network interface details:
+* Check your network interface details:
      ```bash
      ip a
      ```
-   - This will give you the details of all network interfaces on your system.
+   > 💡 This will give you the details of all network interfaces on your system.
 
-#### 4. **Editing Network Configuration to Set a Static IP**:
-   - Open the network configuration file for editing:
+* Edit network configuration to set a static IP:
      ```bash
      sudo vim /etc/network/interfaces
      ```
-   - In the configuration file, locate the line that configures the interface to use **DHCP** (Dynamic Host Configuration Protocol).
+   > 💡 In the configuration file, locate the line that configures the interface to use **DHCP** (Dynamic Host Configuration Protocol).
 
-#### 5. **Changing DHCP to Static**:
+* **Modify DHCP to Static**:
+  | BEFORE | AFTER |
+  |--------|-------|
+  | `iface eth0 inet DHCP` | `iface eth0 inet static` |
+  | `address {your_ip_address}` | `address 10.11.249.26` |
+  | `netmask {your_netmask}` | `netmask 255.255.0.0` |
+  | `gateway {your_broadcast_address}` | `gateway 10.11.255.255` |
+
+
+* Change DHCP to Static:
    - Replace the **DHCP** setting with **static**, like this:
      ```bash
      iface eth0 inet static
@@ -590,20 +567,18 @@ Now, every 10 minutes, the `monitoring.sh` script will be executed automatically
          netmask {your_netmask}
          gateway {your_broadcast_address}
      ```
-   - Replace `{your_ip_address}` with your actual IP address (e.g., `10.11.249.26`), `{your_netmask}` with the appropriate netmask (e.g., `255.255.0.0`), and `{your_broadcast_address}` with the broadcast address (e.g., `10.11.255.255`).
 
-#### 6. **Restarting Network Services**:
-   - After making the changes, restart the network interface or the whole system for the changes to take effect:
+* Restart the network services:
      ```bash
      sudo systemctl restart networking
      ```
 
-#### 7. **Verifying the Port Status**:
-   - Check again whether **UDP port 68** is closed by running:
+* Verify the port status, Check again whether `UDP port 68` is closed:
      ```bash
      ss -tunlp
      ```
 
-By following these steps, you will close **UDP port 68**, often associated with DHCP, and configure a static IP for your machine. This is particularly useful for securing your system and preventing unwanted network configuration changes.
+   > 💡 By following these steps, you will close **UDP port 68**, often associated with DHCP, and configure a static IP for your machine. This is particularly useful for securing your system and preventing unwanted network configuration changes.
 
-#### 🧠 **UDP (User Datagram Protocol)**: A communication protocol used across the Internet that allows sending packets of data without requiring a connection, unlike TCP, making it faster but less reliable.
+> 🧠 **UDP (User Datagram Protocol)**:  
+A communication protocol used across the Internet that allows sending packets of data without requiring a connection, unlike TCP, making it faster but less reliable.
