@@ -103,3 +103,10 @@ For example, if your storage begins to fill up, you can easily add more space, m
 This system is widely used to automate repetitive tasks, such as **database backups**, **software updates**, or **temporary file cleanup**. With **Crontab**, you can configure schedules using a specific syntax, where you define the execution time (such as minutes, hours, days, weeks, or months) and the command to be executed. For example, you can schedule a task to run every day at 5 AM, ensuring that the system does something important, like cleaning logs or updating packages.
 
 It’s important to note that tasks scheduled with **Crontab** are executed under the user who configured them. Therefore, these tasks have the same access permissions as the user, meaning that if you schedule a file backup, it will only have access to the files that your user can access.
+
+
+<p align="center">
+<a href="https://github.com/pin3dev/42_Cursus/blob/main/tutorial/Born2BeRoot/EN/docs/remarks.md"> Previous ⬅️ </a> • 
+<a href=""> Top ⬆️ </a> • 
+<a href="https://github.com/pin3dev/42_Cursus/blob/main/tutorial/Born2BeRoot/EN/docs/roadmao.md">Next ➡️ </a>
+</p>
