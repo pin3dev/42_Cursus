@@ -91,7 +91,9 @@ An ISO Image is a file that contains all the data from an optical disc. In this 
   The **`lsblk`** command displays information about all available block devices (disks), such as their size and mount points, in a tree format.
 
 
-
+<p align="center">
+<a href=""> Top ⬆️ </a> 
+</p>
 
 
 
@@ -643,3 +645,8 @@ An open-source implementation of the SSH protocol. It provides secure network op
      ```
 
    > 💡 By following these steps, you will close **UDP port 68**, often associated with DHCP, and configure a static IP for your machine. This is particularly useful for securing your system and preventing unwanted network configuration changes.
+
+<p align="center">
+<a href="https://github.com/pin3dev/42_Cursus/blob/main/tutorial/Born2BeRoot/EN/docs/concepts.md"> Previous ⬅️ </a> • 
+<a href=""> Top ⬆️ </a> 
+</p>
