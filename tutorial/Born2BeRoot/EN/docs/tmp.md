@@ -69,13 +69,6 @@
 
 #### Concept Explanations:
 
-> 🧠 **Sudo**:  
-Sudo is a program for Unix-like operating systems that allows users to run commands with the security privileges of superuser (root).  
-It allows a regular user to perform tasks that typically require administrator (root) privileges without needing to log in directly as root.
-
-> 🧠 **APT**:  
-APT (Advanced Package Tool) is a free software user interface for installing and removing software on Debian-based Linux distributions. It handles package installations and dependencies.
-
 > 🧠 **Getent**:  
 A utility that extracts important information from system databases (e.g., groups, users, etc.) in a simple and efficient way.
 
@@ -162,9 +155,6 @@ The numeric identifier assigned to a group. Each group in a Linux system is asso
     > 💡 You should see `Port 4242` as the active port
 
 #### Concept Explanations:
-
-> 🧠 **SSH**:  
-A cryptographic network protocol used for secure communications over an insecure network. It's primarily used for remote login into other systems securely.
   
 > 🧠 **OpenSSH**:
 An open-source implementation of the SSH protocol. It provides secure network operations by encrypting communication.
@@ -204,15 +194,6 @@ An open-source implementation of the SSH protocol. It provides secure network op
    sudo ufw status
    ```
     > 💡 This will display the current firewall rules, showing that port 4242 is now allowed for connections.
-
-#### Concept Explanations:
-
-> 🧠 **UFW (Uncomplicated Firewall)**:  
-A simple command-line firewall management tool for managing iptables in Linux. It allows users to easily configure and manage their firewall rules to permit or block network traffic.
-
-> 🧠 **Firewall**:  
-A security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It serves as a barrier between a trusted internal network and untrusted external networks (such as the internet).
-
 
 ### 5. **Configuring Sudo Password Security Policy**
 
@@ -520,10 +501,6 @@ A security system that monitors and controls incoming and outgoing network traff
 
    > 💡 Now, every 10 minutes, the `monitoring.sh` script will be executed automatically as per the crontab configuration.
 
-> 🧠 **Crontab**:  
-A scheduling utility in Unix-based systems that allows users to run scripts or commands at specified intervals. It works by using a cron daemon to periodically check the scheduled tasks and execute them.
-
-
 ### 10. **Closing UDP Port 68**
 
 * Check if UDP Port 68 is Open**:
@@ -569,6 +546,3 @@ A scheduling utility in Unix-based systems that allows users to run scripts or c
      ```
 
    > 💡 By following these steps, you will close **UDP port 68**, often associated with DHCP, and configure a static IP for your machine. This is particularly useful for securing your system and preventing unwanted network configuration changes.
-
-> 🧠 **UDP (User Datagram Protocol)**:  
-A communication protocol used across the Internet that allows sending packets of data without requiring a connection, unlike TCP, making it faster but less reliable.
