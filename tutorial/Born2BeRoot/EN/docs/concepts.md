@@ -58,7 +58,38 @@ sudo apparmor_status
 ```
 
 ### Password Policy <a id="password"></a>
+
+A **Password Policy** is a set of rules that defines the requirements a password must meet, such as minimum length, complexity, validity, and reuse. The primary goal of these policies is to ensure that the passwords used in the system are strong enough to withstand brute-force attacks or guessing attempts. A Password Policy may include, for example, the requirement for uppercase letters, numbers, special characters, and the prohibition of using common passwords.
+
+However, as with everything in life, there are disadvantages. Highly complex passwords can be difficult to remember, which may lead users to adopt insecure "solutions," such as writing down passwords in places where others can access them, thus making them more vulnerable.
+
+In the **Debian** system, the password policy is managed by **PAM** (Pluggable Authentication Modules), which is a **Security Module** responsible for defining authentication rules, including password complexity. These policies can be adjusted by the administrator in the `common-password` file. **PAM** provides the flexibility to apply different levels of control over authentication and password usage, allowing the system to have personalized policies that balance security and usability.
+
 ### Firewall <a id="firewall"></a>
+
+Uncomplicated Firewall, also known as UFW, is a firewall tool that analyzes the traffic between your PC and the internet, allowing or blocking incoming and outgoing traffic. There are many types of firewalls, with varying levels of complexity, but UFW stands out for its simplicity.
+
+UFW is a command-line tool based on iptables, a powerful firewall tool for Linux systems. However, UFW simplifies the process of creating new rules, which is extremely useful for beginners who might find iptables complicated.
+
+One interesting feature of UFW is how easily it allows configuring access from a virtual machine through the physical machine, which will be a very useful feature for our project. This makes it a popular choice for those who need a quick and efficient solution to manage network traffic.
+
 ### SSH <a id="ssh"></a>
+
+Secure Shell (SSH) is a network protocol that allows secure and encrypted communication between two systems, such as between a computer and a remote server. SSH is widely used to securely access, manage, and transfer files between systems, ensuring that confidential information is not intercepted or stolen during transmission.
+
+The main advantage of SSH lies in its security. It uses strong encryption to protect the data transmitted between systems, which means that even if someone intercepts the connection, they won't be able to access the transmitted information. This makes SSH a fundamental choice for those who need to securely access systems remotely.
+
+Additionally, SSH allows authentication via passwords or encryption keys, adding an extra layer of security. This type of authentication is particularly important for preventing unauthorized access, making SSH one of the most secure and efficient solutions for managing remote servers and systems.
+
 ## ⛽ Logical Volume Manager <a id="lvm"></a>
+
+LVM (Logical Volume Manager) helps manage storage space on Linux in a more flexible way. With LVM, it's possible to resize and move disk partitions, or even combine multiple physical disks into a single logical volume, without having to interrupt the system's operation.
+Basically, if your storage starts to fill up, you can easily add more space, like extending a drawer in an existing cabinet without needing to dismantle it. So, even though it may sound advanced, LVM simplifies life, especially when managing large volumes of data or when the storage structure needs to be adjusted over time.
+
 ## 🛤️ Automation <a id="automation"></a>
+
+**Crontab** is a utility that allows users to schedule tasks to be executed at specific times. It edits the configuration file where you define the commands to be executed and the time of execution. **Cron**, on the other hand, is the service that monitors this file and ensures that the scheduled tasks are performed at the right time.
+
+This system is widely used to automate repetitive tasks, such as **database backups**, **software updates**, or **temporary file cleanup**. With **Crontab**, you can configure schedules using a specific syntax, where you define the execution time (such as minutes, hours, days, weeks, or months) and the command to be executed. For example, you can schedule a task to run every day at 5 AM, ensuring that the system does something important, like cleaning logs or updating packages.
+
+It’s important to note that tasks scheduled with **Crontab** are executed under the user who configured them. Therefore, these tasks have the same access permissions as the user, meaning that if you schedule a file backup, it will only have access to the files that your user can access.
