@@ -37,11 +37,9 @@ Although both are based on the Linux kernel, they have distinct philosophies and
 
 When you need to install a program on your PC, something needs to take on the responsibility of installing, updating, configuring, and removing all the "packages" on your machine. This is where the **package manager** comes in, and in the case of **Debian**, the main ones are **APT** or **APTITUDE**. Although they have some differences, both perform this task efficiently and simplify software management on the system.
 
-### APT - Advanced Packaging Tool <a id="apt"></a>  
-**APT** (Advanced Packaging Tool) is a command-line toolset that allows you to install, update, and remove packages on Linux systems. It uses a list of software repositories to locate and download packages, automatically taking care of all the **dependencies**. Although it doesn’t have a graphical user interface (GUI), APT is extremely powerful and straightforward, giving users the ability to manage software efficiently. With it, you can ensure that installed packages are always up to date and functioning correctly.
+- **APT** (Advanced Packaging Tool): It is a command-line toolset that allows you to install, update, and remove packages on Linux systems. It uses a list of software repositories to locate and download packages, automatically taking care of all the **dependencies**. Although it doesn’t have a graphical user interface (GUI), APT is extremely powerful and straightforward, giving users the ability to manage software efficiently. With it, you can ensure that installed packages are always up to date and functioning correctly.
 
-### APTITUDE <a id="aptitude"></a>  
-**APTITUDE** is a user interface for APT, offering both a graphical interface and a command-line interface for managing packages. APTITUDE is a more intuitive and user-friendly alternative for package management, with additional features such as more advanced package search capabilities, the ability to easily handle obsolete packages, and a simpler way to install **optional dependencies**.
+- **APTITUDE**: It is a user interface for APT, offering both a graphical interface and a command-line interface for managing packages. APTITUDE is a more intuitive and user-friendly alternative for package management, with additional features such as more advanced package search capabilities, the ability to easily handle obsolete packages, and a simpler way to install **optional dependencies**.
 
 ## 🛡️ Security System <a id="ssystem"></a>
 
