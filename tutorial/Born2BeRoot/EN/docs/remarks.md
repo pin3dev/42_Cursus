@@ -54,6 +54,6 @@
 
 <p align="center">
 <a href="https://github.com/pin3dev/42_Cursus/blob/main/tutorial/Born2BeRoot/EN/docs/toStudy.md"> Previous ⬅️ </a> • 
-<a href=""> Top ⬆️ </a> • 
+<a href="#"> Top ⬆️ </a> • 
 <a href="https://github.com/pin3dev/42_Cursus/blob/main/tutorial/Born2BeRoot/EN/docs/concepts.md">Next ➡️ </a>
 </p>
