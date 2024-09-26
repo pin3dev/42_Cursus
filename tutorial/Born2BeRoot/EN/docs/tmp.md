@@ -127,96 +127,91 @@ The numeric identifier assigned to a group. Each group in a Linux system is asso
   ```bash
    sudo vim /etc/ssh/sshd_config
    ```
-* **Modify SSH Port:**
-   - Locate the line:  
-     `#Port 22`
-   - **Uncomment** the line by removing the `#` and change it to:  
-     `Port 4242`
+* **Modify SSH Port**:
+  | BEFORE | AFTER |
+  |--------|-------|
+  | `#Port 22` | `Port 4242` |
+  | `#PermitRootLogin` | `PermitRootLogin no` | 
+    > 💡 
 
-6. **Disable Root Login via SSH:**
-   - Find the line:  
-     `#PermitRootLogin`
-   - **Uncomment** it and change it to:  
-     `PermitRootLogin no`
+* Save the changes and close the editor.
 
-7. **Save the Changes** and close the editor.
-
-8. **Edit the Client SSH Configuration** (optional):
+* Edit the Client SSH Configuration:  
    ```bash
    sudo vim /etc/ssh/ssh_config
    ```
-   or
-   ```bash
-   sudo nano /etc/ssh/ssh_config
-   ```
+* **Modify SSH Port for Clients**:
+  | BEFORE | AFTER |
+  |--------|-------|
+  | `#Port 22` | `Port 4242` |
+    > 💡 
 
-9. **Modify SSH Port for Clients:**
-   - Locate the line:  
-     `#Port 22`
-   - **Uncomment** it and change it to:  
-     `Port 4242`
-
-10. **Restart the SSH Service** to apply the changes:
+* Restart the SSH Service to apply the changes:
     ```bash
     sudo service ssh restart
     ```
-
-11. **Verify SSH Service** to ensure the updates were applied:
+* Verify SSH Service to ensure the updates were applied:
+    Option 1  
     ```bash
     sudo service ssh status
     ```
-    or:
+    Option 2  
     ```bash
     sudo grep Port /etc/ssh/ssh_config
     ```
-    You should see **Port 4242** as the active port.
+    > 💡 You should see `Port 4242` as the active port
 
-### Concept Explanations:
+#### Concept Explanations:
 
-- **SSH**: A cryptographic network protocol used for secure communications over an insecure network. It's primarily used for remote login into other systems securely.
+> 🧠 **SSH**:  
+A cryptographic network protocol used for secure communications over an insecure network. It's primarily used for remote login into other systems securely.
   
-- **OpenSSH**: An open-source implementation of the SSH protocol. It provides secure network operations by encrypting communication.
+> 🧠 **OpenSSH**:
+An open-source implementation of the SSH protocol. It provides secure network operations by encrypting communication.
 
-- **ssh vs. sshd**:  
-  - **SSH**: The client-side application that connects to the server.
-  - **sshd**: The server-side daemon that manages incoming SSH connections.
+> 🧠 **ssh vs sshd**:  
+> **SSH**: The client-side application that connects to the server.  
+> **sshd**: The server-side daemon that manages incoming SSH connections.  
 
 
 ### 4. **Installing and Configuring UFW (Uncomplicated Firewall)**
 
-1. **Enable UFW** to start the firewall service:
+* Enable UFW to start the firewall service:
    ```bash
    sudo ufw enable
    ```
-   Once enabled, you’ll see a message confirming that UFW is active.
+    > 💡 Once enabled, you’ll see a message confirming that UFW is active.
 
-2. **Install UFW** (if not already installed) with one of the following commands:
+* Install UFW (if not already installed):  
+   Option 1  
    ```bash
    sudo apt-get install ufw
    ```
-   or
+   Option 2  
    ```bash
    sudo apt install ufw
    ```
-   Press **Y** to confirm the installation.
+    > 💡 Press **Y** to confirm the installation.
 
-3. **Allow Connections on Port 4242** (or any custom port you've configured for SSH):
+* Allow connections on Port 4242 (or any custom port you've configured for SSH):
    ```bash
    sudo ufw allow 4242
    ```
-   This allows SSH connections through the specified port, ensuring you can still remotely access your server.
+    > 💡 This allows SSH connections through the specified port, ensuring you can still remotely access your server.
 
-4. **Check UFW Status** to verify that the rules have been updated:
+* Check UFW status to verify that the rules have been updated:
    ```bash
    sudo ufw status
    ```
-   This will display the current firewall rules, showing that port 4242 is now allowed for connections.
+    > 💡 This will display the current firewall rules, showing that port 4242 is now allowed for connections.
 
-### Concept Explanations:
+#### Concept Explanations:
 
-- **UFW (Uncomplicated Firewall):** A simple command-line firewall management tool for managing iptables in Linux. It allows users to easily configure and manage their firewall rules to permit or block network traffic.
+> 🧠 **UFW (Uncomplicated Firewall)**:  
+A simple command-line firewall management tool for managing iptables in Linux. It allows users to easily configure and manage their firewall rules to permit or block network traffic.
 
-- **Firewall:** A security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It serves as a barrier between a trusted internal network and untrusted external networks (such as the internet).
+> 🧠 **Firewall**:  
+A security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It serves as a barrier between a trusted internal network and untrusted external networks (such as the internet).
 
 
 ### 5. **Configuring Sudo Password Security Policy**
