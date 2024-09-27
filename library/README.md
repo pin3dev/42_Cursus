@@ -63,6 +63,14 @@
 | ⭐⭐ |  | 📄 |[crontab guru](https://crontab.guru/)| 
 | ⭐⭐ |  | 📄 |[Crontab](https://pt.wikipedia.org/wiki/Crontab)| 
 
+> ✅ OK | ⭐ Good | ⭐⭐ VeryGood | 🤩 Amazing | 🔖 Bookmarked2Read  
+> 📄 Blog | 💭 Chat | 📹 Video | 📚 Book
 
+
+## 02-Minitalk
+
+| Grade |Lang | Type| Links |
+|:---------:|:---:|:---:|--------------------|
+| ⭐⭐ |  | 📚 |[]()  
 > ✅ OK | ⭐ Good | ⭐⭐ VeryGood | 🤩 Amazing | 🔖 Bookmarked2Read  
 > 📄 Blog | 💭 Chat | 📹 Video | 📚 Book
