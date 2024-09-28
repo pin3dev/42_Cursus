@@ -88,3 +88,6 @@ It is a pointer to the node in another stack (stack B) which will be the intende
 5.5. Best case
 > Após todas atribuições anteriores, o best case percorre toda a stack a tentando encontrar o node com o total mov com menor valor, sendo esse o melhor caso -->
 
+<p align="center">
+ <a href="https://github.com/pin3dev/42_Cursus/blob/main/tutorial/PushSwap/EN/docs/concepts.md"> Previous ⬅️ </a> •
+<a href="#builder"> Top ⬆️ </a></p>
