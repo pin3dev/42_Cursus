@@ -90,4 +90,4 @@ It is a pointer to the node in another stack (stack B) which will be the intende
 
 <p align="center">
  <a href="https://github.com/pin3dev/42_Cursus/blob/main/tutorial/PushSwap/EN/docs/concepts.md"> Previous ⬅️ </a> •
-<a href="#builder"> Top ⬆️ </a></p>
+<a href="#"> Top ⬆️ </a></p>
