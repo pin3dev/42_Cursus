@@ -38,3 +38,9 @@ Stack display:
 |  A  |`sa` |`rra` |`ra` |`pa` |
 |  B  |`sb` |`rrb` |`rb` |`pb` |
 | A&B |`ss` |`rrr` |`rr` | _none_ |
+
+<p align="center">
+ <a href="https://github.com/pin3dev/42_Cursus/blob/main/tutorial/Born2BeRoot/EN/docs/home.md"> Previous ⬅️ </a> •
+<a href="#remarks"> Top ⬆️ </a> • 
+<a href="https://github.com/pin3dev/42_Cursus/blob/main/tutorial/PushSwap/EN/docs/">Next ➡️ </a>
+</p>
