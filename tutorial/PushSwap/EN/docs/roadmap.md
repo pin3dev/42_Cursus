@@ -3,7 +3,7 @@
 > Below is an explanation of the features for automating the algorithm,  
 to see flowcharts and animations of how the code works click [here](https://github.com/pin3dev/42_Push_Swap/wiki/Flowcharts).
 
-### 1. List Builder
+### 1. List Builder <a id="builder"></a>
 
 > ℹ️ The following steps must be executed argument by argument in sequence. 
 
@@ -18,7 +18,7 @@ Finally, adds the node to the end of the linked list (stack A).
 
 > 🚨 Initially the second linked list (_stack B_) is composed only of the head that points to `NULL`, making it an empty stack.
 
-### 2. Content Checkers
+### 2. Content Checkers <a id="checkers"></a>
 > ℹ️ Once the linked list has been created, it is traversed node by node, checking that the values comply with certain rules 
 
 * **_Step 1:_**  
@@ -26,7 +26,7 @@ Checks if there are any repeated integer values in stack A, using the _"ft_check
 * **_Step 2:_**  
 Checks if stack A is already sorted, using the _"ft_check_sorted"_.  
 
-### 3. Sort Type Classifier
+### 3. Sort Type Classifier <a id="classifier"></a>
 > ℹ️ Checks the size of the stack to classify the best sorting type.  
 
 | size | steps |
@@ -38,7 +38,7 @@ Checks if stack A is already sorted, using the _"ft_check_sorted"_.
 
 > 🚨 The return algorithm from stack A to stack B is called at the end of the case classification 
 
-### 4. Big Sort Algorithm Brain
+### 4. Big Sort Algorithm Brain <a id="brain"></a>
 > ℹ️ I used some features to store important data in the nodes that will automatically determine how the algorithm should run
 
 * **_Feat 1: Index_**  
