@@ -1,6 +1,6 @@
 ## 🔃 Algorithm <a id="algo"></a>
 
-### Theory
+### Theory <a id="theory"></a>
 
 The Turkish Algorithm has a simple goal:
 > ℹ️ To organize the numbers in stack A, push it in descending order into stack B (`pb`) and then bring them back to stack A, leaving it in ascending order (`pa`).  
@@ -10,7 +10,7 @@ The Turkish Algorithm has a simple goal:
 </p>
 
 
-### Sorting Types
+### Sorting Types <a id="sorting"></a>
 
    #### 1. Sort Three
 
