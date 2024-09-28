@@ -17,6 +17,9 @@ All theoretical resources and materials used in the project are linked below and
   </a>
 </p>
 
+
 <p align="center">
-<a href="https://github.com/pin3dev/42_Cursus/blob/main/tutorial/PushSwap/EN/docs/">Next ➡️ </a>
+<!-- <a href="https://github.com/pin3dev/42_Cursus/blob/main/tutorial/Born2BeRoot/EN/docs/toStudy.md"> Previous ⬅️ </a> • --> 
+<a href="#requisites"> Top ⬆️ </a> • 
+<a href="https://github.com/pin3dev/42_Cursus/blob/main/tutorial/PushSwap/EN/docs/remarks.md">Next ➡️ </a>
 </p>
