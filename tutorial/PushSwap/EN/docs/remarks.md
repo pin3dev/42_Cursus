@@ -7,12 +7,12 @@ It's a strange approach, but one requested by the subject.
 
 Input example:
 ```bash
-$~ ./push_swap 1 3 6 0
+$~ ./push_swap 3 1 6 0
 ```  
 Linked list order:
 |HEAD| 1º | 2º | 3º | 4º | Nº |
 |----|----|----|----|----|----|
-| ➡️  |`1` |`3` |`6` |`0` |`...`|
+| ➡️  |`3` |`1` |`6` |`0` |`...`|
 
 
 > 🚨 Also, when moving nodes from the first list (stack A) to the second list (stack B),  
@@ -22,8 +22,8 @@ Stack display:
 
 |HEAD| ⤵️ |
 |----|----|
-|_top_|`1` |
-|    |`3` |
+|_top_|`3` |
+|    |`1` |
 |    |`6` |
 |_base_|`0` |
 
