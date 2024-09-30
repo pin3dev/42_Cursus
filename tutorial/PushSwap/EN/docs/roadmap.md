@@ -1,7 +1,7 @@
 ## Algorithm Applied <a id="apply"></a>
 
 > Below is an explanation of the features for automating the algorithm,  
-to see flowcharts and animations of how the code works click [here](https://github.com/pin3dev/42_Push_Swap/wiki/Flowcharts).
+to see animations of how the code works, see next page.  
 
 ### 1. List Builder <a id="builder"></a>
 
@@ -90,4 +90,5 @@ It is a pointer to the node in another stack (stack B) which will be the intende
 
 <p align="center">
  <a href="https://github.com/pin3dev/42_Cursus/blob/main/tutorial/PushSwap/EN/docs/concepts.md"> Previous ⬅️ </a> •
-<a href="#apply"> Top ⬆️ </a></p>
+<a href="#apply"> Top ⬆️ </a>
+</p>
