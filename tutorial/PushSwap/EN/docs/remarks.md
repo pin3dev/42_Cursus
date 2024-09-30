@@ -32,12 +32,21 @@ Stack display:
 > 🚨 Only two stacks are allowed to use, the original stack A and stack supporting sort B.   
 > 🚨 Only internal rotational movements in the stacks and the transfer of nodes from the top between the stacks are permitted. 
 
+<!--
 |STACK| swap↕️ | reverse-rotate↗️ | rotate↘️ | push➡️ |
 |-----|------|----------------|--------|------|
 |     |<img src="https://github.com/pin3dev/42_Cursus/blob/a708c0de6d3fdc729bb720318b5d35bdaa9551c0/assets/PushSwap/Tutorial/general_swap.gif" width="250" height="250" />|<img src="https://github.com/pin3dev/42_Cursus/blob/a708c0de6d3fdc729bb720318b5d35bdaa9551c0/assets/PushSwap/Tutorial/general_reverserotate.gif" width="250" height="250" /> |<img src="https://github.com/pin3dev/42_Cursus/blob/a708c0de6d3fdc729bb720318b5d35bdaa9551c0/assets/PushSwap/Tutorial/general_rotate.gif" width="250" height="250" />|<img src="https://github.com/pin3dev/42_Cursus/blob/a708c0de6d3fdc729bb720318b5d35bdaa9551c0/assets/PushSwap/Tutorial/general_push.gif" width="250" height="250" />  |
 |  A  |`sa` |`rra` |`ra` |`pa` |
 |  B  |`sb` |`rrb` |`rb` |`pb` |
-| A&B |`ss` |`rrr` |`rr` | _none_ |
+| A&B |`ss` |`rrr` |`rr` | _none_ |  
+-->
+
+|MOVIMENTS| STACK A | STACK B | STACK A&B |  
+|:-------:|:-------:|:-------:|:---------:|    
+|<img src="https://github.com/pin3dev/42_Cursus/blob/a708c0de6d3fdc729bb720318b5d35bdaa9551c0/assets/PushSwap/Tutorial/general_swap.gif" width="250" height="250" /> | `sa` | `sb`| `ss` |  
+|<img src="https://github.com/pin3dev/42_Cursus/blob/a708c0de6d3fdc729bb720318b5d35bdaa9551c0/assets/PushSwap/Tutorial/general_reverserotate.gif" width="250" height="250" /> | `rra` | `rrb`| `rrr` |  
+|<img src="https://github.com/pin3dev/42_Cursus/blob/a708c0de6d3fdc729bb720318b5d35bdaa9551c0/assets/PushSwap/Tutorial/general_rotate.gif" width="250" height="250" /> | `ra` | `rb` | `rr` |  
+|<img src="https://github.com/pin3dev/42_Cursus/blob/a708c0de6d3fdc729bb720318b5d35bdaa9551c0/assets/PushSwap/Tutorial/general_push.gif" width="250" height="250" /> | `pa` | `pb`| _none_ |  
 
 <p align="center">
  <a href="https://github.com/pin3dev/42_Cursus/blob/main/tutorial/PushSwap/EN/docs/home.md"> Previous ⬅️ </a> •
