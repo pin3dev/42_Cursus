@@ -91,5 +91,5 @@ It is a pointer to the node in another stack (stack B) which will be the intende
 <p align="center">
  <a href="https://github.com/pin3dev/42_Cursus/blob/main/tutorial/PushSwap/EN/docs/concepts.md"> Previous ⬅️ </a> •
 <a href="#apply"> Top ⬆️ </a> •
-<a href="https://github.com/pin3dev/42_Cursus/blob/main/tutorial/PushSwap/EN/docs/extra.md">Next ➡️ </a>
+<a href="https://github.com/pin3dev/42_Cursus/blob/main/tutorial/PushSwap/EN/docs/extras.md">Next ➡️ </a>
 </p>
