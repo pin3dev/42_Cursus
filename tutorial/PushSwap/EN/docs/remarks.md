@@ -1,5 +1,21 @@
 ## 🔎 Remarks <a id="remarks"></a>
 
+### 📃 Subject
+
+Based on [version 6 subject](https://github.com/pin3dev/42_Cursus/blob/a708c0de6d3fdc729bb720318b5d35bdaa9551c0/assets/PushSwap/Rdm/Push_Swap_subject.en.pdf) (updated in 2023) of [École 42's common core](https://42.fr/en/the-program/software-engineer-degree/) project,  
+PushSwap's construction parameters and objectives are as follows:
+
+1. Receive a list of integers that fills stack A, according to the order in which they were entered into stdin  
+
+2. Sort all elements in stack A in ascending order, using as few moves as possible and stack B, if necessary.  
+  
+3. The program must print out a list of instructions for the moves required for sorting,  
+the list being made up of the abbreviations of the moves followed always by a new line.
+
+4. The program must check for input errors, such as non-integers or empty inputs.
+
+5. At the end of the program, all memory dynamically allocated must be freed, avoiding memory leaks.
+
 ### Stack Filling Order
 
 > 🚨 Note that the head of the first linked list (stack A), i.e. its top, is configured to point to the first value passed through the input.  
