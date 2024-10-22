@@ -20,5 +20,5 @@
 | 2 | [Minitalk](https://github.com/pin3dev/42_Minitalk) | 📂 | Data exchange using UNIX signals. | <img src="https://skillicons.dev/icons?i=c&theme=dark&perline=16" /> | `115/100` | 60h | 23Apr07 |  
 | 1 | [Born2BeRoot](https://github.com/pin3dev/42_Born2BeRoot) | 📂✅ | VM and cybersecurity | <img src="https://skillicons.dev/icons?i=debian,bash&theme=dark&perline=16" /> | `100/100` | 50h | 23Feb08 |  
 | 1 | [ft_Printf](https://github.com/pin3dev/42_ft_Printf) | 📂 | Recreates the printf function. | <img src="https://skillicons.dev/icons?i=c&theme=dark&perline=16" /> | `100/100` | 90h | 22Dec24 |  
-| 1 | Get_Next_Line | 🔐| Read line from a fd. | <img src="https://skillicons.dev/icons?i=c&theme=dark&perline=16" /> | `125/100` | 90h | 22Dec03 |  
+| 1 | [GetNextLine](https://github.com/pin3dev/42_GetNextLine) | 🔐| Read line from a fd. | <img src="https://skillicons.dev/icons?i=c&theme=dark&perline=16" /> | `125/100` | 90h | 22Dec03 |  
 | 0 | [Libft](https://github.com/pin3dev/42_Libft/) | 📂 | Recreates basics functions from libc | <img src="https://skillicons.dev/icons?i=c&theme=dark&perline=16" /> | `125/100` | 90h | 22Nov26 |  
