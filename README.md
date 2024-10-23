@@ -34,7 +34,7 @@ The *Common Core* at 42 is the foundational curriculum that equips students with
    .          ├── ft_Transcendence
    .          └── Exam_06
    .
-   └─> Specialisation
+   └─> Specializations
   
 </pre>
 
