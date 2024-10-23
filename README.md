@@ -1,3 +1,39 @@
+<!--
+<pre>
+  42_Common_Core
+    ├─> [00]
+    │     └── Libft
+    ├─> [01]
+    │     ├── GetNextLine
+    │     ├── ft_Printf
+    │     └── Born2BeRoot
+    ├─> [02]
+    │     ├── Minitalk || Pipex
+    │     ├── Pushswap
+    │     ├── So_Long || Fdf || Fract-ol
+    │     └── Exam_02
+    ├─> [03]
+    │     ├── Philosophers
+    │     ├── Minishell
+    │     └── Exam_03
+    ├─> [04]
+    │     ├── Netpratice
+    │     ├── Cub3D || MiniRT
+    │     ├── CPP00-CPP04
+    │     └── Exam_04
+    ├─> [05]
+    │     ├── CPP05-CPP09
+    │     ├── Webserv || ft_Irc
+    │     ├── Inception
+    │     └── Exam_05
+    └─> [06]
+          ├── ft_Transcendence
+          └── Exam_06
+</pre>
+-->
+
+
+
 
 | Rank | Project | Repo & Tutorial | Resume | Language | Grade | Estimated effort (h) | End date | 
 |:----:|:-------:|:----------:|:------:|:--------:|:-----:|:--------------------:|:--------:|  
