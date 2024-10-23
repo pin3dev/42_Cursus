@@ -1,9 +1,3 @@
-<!--
-<img src="https://img.shields.io/badge/grade-125%2F125-yellow?style=for-the-badge&logo=42&labelColor=gray"/>
-<img src="https://img.shields.io/badge/Effort-90h-blue?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/Eval_Date-22Nov26-blue?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/Skills-Array%2FLinked_List%2FCompilation%2FMakefile-blue?style=for-the-badge&logo=C&logoColor=white" />  
--->
 # Common Core
 
 The *Common Core* at 42 is the foundational curriculum that equips students with essential technical and problem-solving skills over a flexible period, typically ranging from 18 to 24 months. It includes mastering programming languages, particularly **C** and **C++**, which are central to the learning process. Students work on various software development projects that develop their skills in system-level and object-oriented programming. After completing the core, students have the opportunity to pursue specialized certifications such as **IT Architecture Expert** or **IT Solutions Designer and Developer**, which open doors to advanced roles in the tech industry.
@@ -62,12 +56,12 @@ The *Common Core* at 42 is the foundational curriculum that equips students with
 ## Rank 1 - Intermediate
 - [X] [✅GetNextLine](link) - Read a line from file descriptor <img src="https://img.shields.io/badge/grade-125%2F125-yellow?style=flat&logo=42&labelColor=gray"/> 
 - [X] [✅ft_Printf](link) - Recreate the printf function <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> 
-- [X] [✅Born2BeRoot](link) - Linux VM & Cybersecurity <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅Born2BeRoot](link) - Linux VM & Cybersecurity <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> <img src="https://img.shields.io/badge/%F0%9F%94%ACtutorial-violet?style=flat&color=violet"/> 
 
 ## Rank 2 - Advanced Algorithms
 - [X] 🔐Exam Rank 2 - Completion exam for Rank 2 <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
 - [X] [✅Minitalk](link) - Data exchange using UNIX signals <img src="https://img.shields.io/badge/grade-115%2F125-green?style=flat&logo=42&labelColor=gray"/> 
-- [X] [✅PushSwap](link) - Sorting algorithm <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅PushSwap](link) - Sorting algorithm <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> <img src="https://img.shields.io/badge/%F0%9F%94%ACtutorial-violet?style=flat&color=violet"/> 
 - [X] [🔐so_Long](link) - 2D game development using C <img src="https://img.shields.io/badge/grade-103%2F125-green?style=flat&logo=42&labelColor=gray"/> 
 
 
@@ -86,7 +80,7 @@ The *Common Core* at 42 is the foundational curriculum that equips students with
 - [X] 🔐Exam Rank 5 - Completion exam for Rank 5 <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
 - [X] [✅CPP Modules 05-09](link) - SOLID and STL concepts <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
 - [X] [✅Webserv](link) - HTTP server in C++ <img src="https://img.shields.io/badge/grade-103%2F125-green?style=flat&logo=42&labelColor=gray"/> 
-- [X] [✅Inception](link) - Docker-based system architecture <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅Inception](link) - Docker-based system architecture <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> <img src="https://img.shields.io/badge/%F0%9F%94%ACtutorial-violet?style=flat&color=violet"/> 
 
 ## Rank 6 - Full Stack Development
 - [X] 🔐Exam Rank 6 - Completion exam for Rank 6 <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
