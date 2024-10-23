@@ -1,40 +1,99 @@
 <!--
-<pre>
-  42_Common_Core
-    ├─> [00]
-    │     └── Libft
-    ├─> [01]
-    │     ├── GetNextLine
-    │     ├── ft_Printf
-    │     └── Born2BeRoot
-    ├─> [02]
-    │     ├── Minitalk || Pipex
-    │     ├── Pushswap
-    │     ├── So_Long || Fdf || Fract-ol
-    │     └── Exam_02
-    ├─> [03]
-    │     ├── Philosophers
-    │     ├── Minishell
-    │     └── Exam_03
-    ├─> [04]
-    │     ├── Netpratice
-    │     ├── Cub3D || MiniRT
-    │     ├── CPP00-CPP04
-    │     └── Exam_04
-    ├─> [05]
-    │     ├── CPP05-CPP09
-    │     ├── Webserv || ft_Irc
-    │     ├── Inception
-    │     └── Exam_05
-    └─> [06]
-          ├── ft_Transcendence
-          └── Exam_06
-</pre>
+<img src="https://img.shields.io/badge/grade-125%2F125-yellow?style=for-the-badge&logo=42&labelColor=gray"/>
+<img src="https://img.shields.io/badge/Effort-90h-blue?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Eval_Date-22Nov26-blue?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Skills-Array%2FLinked_List%2FCompilation%2FMakefile-blue?style=for-the-badge&logo=C&logoColor=white" />  
 -->
+# Common Core
+
+The *Common Core* at 42 is the foundational curriculum that equips students with essential technical and problem-solving skills over a flexible period, typically ranging from 18 to 24 months. It includes mastering programming languages, particularly **C** and **C++**, which are central to the learning process. Students work on various software development projects that develop their skills in system-level and object-oriented programming. After completing the core, students have the opportunity to pursue specialized certifications such as **IT Architecture Expert** or **IT Solutions Designer and Developer**, which open doors to advanced roles in the tech industry.
+
+<pre>
+  42
+   └─> Common_Core
+   .    ├─> [00]
+   .    │     └── Libft
+   .    ├─> [01]
+        │     ├── GetNextLine
+        │     ├── ft_Printf
+        │     └── Born2BeRoot
+        ├─> [02]
+        │     ├── Minitalk || Pipex
+        │     ├── Pushswap
+        │     ├── So_Long || Fdf || Fract-ol
+        ∙     └── Exam_02
+        ├─> [03]
+        │     ├── Philosophers
+   .    │     ├── Minishell
+   .    ∙     └── Exam_03
+   .    ├─> [04]
+        │     ├── Netpratice
+        │     ├── Cub3D || MiniRT
+        │     ├── CPP00-CPP04
+        ∙     └── Exam_04
+        ├─> [05]
+        │     ├── CPP05-CPP09
+        │     ├── Webserv || ft_Irc
+        │     ├── Inception
+        ∙     └── Exam_05
+        └─> [06]
+   .          ├── ft_Transcendence
+   .          └── Exam_06
+   .
+   └─> Specialisation
+  
+</pre>
+
+# Summary
+| Rank	| Exam | Projects Done |	Estimated effort (h)	| Date | Grade |  
+|:------|:----:|:-------------:|:----------------------:|:----:|:-----:|  
+| [Rank 6 - Full Stack Development](#rank-6---full-stack-development) | ✅ | 0/1 | 245h | AGU/FREEZE | ⏳ |  
+| [Rank 5 - Docker, Web Servers and C++](#rank-5---docker-web-servers-and-c++) | ✅ | 3/3 |	525h | 24Sep13 | 105/100 |  
+| [Rank 4 - Computer Graphics and Networking](#rank-4---computer-graphics-and-networking) | ✅ | 3/3	| 400h | 24Feb01 | 100/100 |  
+| [Rank 3 - Multithreading and System Programming](#rank-3---multithreading-and-system-programming) | ✅ | 2/2	| 280h | 23Sep19 | 100/100 |  
+| [Rank 2 - Advanced Algorithms](#rank-2---advanced-algorithms) | ✅ | 3/3	| 200h | 23Jun02 | 100/100 |  
+| [Rank 1 - Intermediate](#rank-1---intermediate) | ✅ | 3/3	| 230h | 23Feb08 | 100/100 |  
+| [Rank 0 - Fundamentals](#rank-0---fundamentals) | ✅ | 1/1	| 90h | 22Nov26 | 125/100 |  
 
 
+## Rank 0 - Fundamentals
+- [X] [✅Libft](link) - Recreates basics functions from libc <img src="https://img.shields.io/badge/grade-125%2F125-yellow?style=flat&logo=42&labelColor=gray"/> 
+
+## Rank 1 - Intermediate
+- [X] [✅GetNextLine](link) - Read a line from file descriptor <img src="https://img.shields.io/badge/grade-125%2F125-yellow?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅ft_Printf](link) - Recreate the printf function <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅Born2BeRoot](link) - Linux VM & Cybersecurity <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+
+## Rank 2 - Advanced Algorithms
+- [X] 🔐Exam Rank 2 - Completion exam for Rank 2 <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅Minitalk](link) - Data exchange using UNIX signals <img src="https://img.shields.io/badge/grade-115%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅PushSwap](link) - Sorting algorithm <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+- [X] [🔐so_Long](link) - 2D game development using C <img src="https://img.shields.io/badge/grade-103%2F125-green?style=flat&logo=42&labelColor=gray"/> 
 
 
+## Rank 3 - Multithreading and System Programming
+- [X] 🔐Exam Rank 3 - Completion exam for Rank 3 <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
+- [X] [🔐Philosophers](link) - Multithreaded dining philosophers problem <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅Minishell](link) - Recreate a Unix shell <img src="https://img.shields.io/badge/grade-103%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+
+## Rank 4 - Computer Graphics and Networking
+- [X] 🔐Exam Rank 4 - Completion exam for Rank 4 <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
+- [X] [🔐Netpractice](link) - IP addressing and networking basics <img src="https://img.shields.io/badge/grade-100%2F100-green?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅Cub3d](link) - 3D graphics engine using raycasting <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅CPP Modules 00-05](link) - Object-Oriented Programming principles <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
+
+## Rank 5 - Docker, Web Servers and C++
+- [X] 🔐Exam Rank 5 - Completion exam for Rank 5 <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅CPP Modules 05-09](link) - SOLID and STL concepts <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅Webserv](link) - HTTP server in C++ <img src="https://img.shields.io/badge/grade-103%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅Inception](link) - Docker-based system architecture <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+
+## Rank 6 - Full Stack Development
+- [X] 🔐Exam Rank 6 - Completion exam for Rank 6 <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
+- [ ] [⏳Ft_Transcendence](link) - Full Stack web application development 
+
+
+<!--
 | Rank | Project | Repo & Tutorial | Resume | Language | Grade | Estimated effort (h) | End date | 
 |:----:|:-------:|:----------:|:------:|:--------:|:-----:|:--------------------:|:--------:|  
 | 6 | Ft_transcendence | 🔐 | | | | 245h | in progress... |  
@@ -58,3 +117,4 @@
 | 1 | [ft_Printf](https://github.com/pin3dev/42_ft_Printf) | 📂 | Recreates the printf function. | <img src="https://skillicons.dev/icons?i=c&theme=dark&perline=16" /> | `100/100` | 90h | 22Dec24 |  
 | 1 | [GetNextLine](https://github.com/pin3dev/42_GetNextLine) | 📂| Read line from a fd. | <img src="https://skillicons.dev/icons?i=c&theme=dark&perline=16" /> | `125/100` | 90h | 22Dec03 |  
 | 0 | [Libft](https://github.com/pin3dev/42_Libft/) | 📂 | Recreates basics functions from libc | <img src="https://skillicons.dev/icons?i=c&theme=dark&perline=16" /> | `125/100` | 90h | 22Nov26 |  
+-->
