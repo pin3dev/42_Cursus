@@ -1,6 +1,6 @@
 # Common Core
 
-The *Common Core* at 42 is the foundational curriculum that equips students with essential technical and problem-solving skills over a flexible period, typically ranging from 18 to 24 months. It includes mastering programming languages, particularly **C** and **C++**, which are central to the learning process. Students work on various software development projects that develop their skills in system-level and object-oriented programming. After completing the core, students have the opportunity to pursue specialized certifications such as **IT Architecture Expert** (`RNCP 7`) or **IT Solutions Designer and Developer** (`RNCP 6`), which open doors to advanced roles in the tech industry.
+The *Common Core* at 42 is the foundational curriculum that equips students with essential technical and problem-solving skills over a flexible period, typically ranging from 18 to 24 months. It includes mastering programming languages, particularly **C** and **C++**, which are central to the learning process. Students work on various software development projects that develop their skills in system-level and object-oriented programming. After completing the core, students have the opportunity to pursue specialized certifications such as **IT Architecture Expert `RNCP 7`** or **IT Solutions Designer and Developer `RNCP 6`**, which open doors to advanced roles in the tech industry.
 
 <pre>
   42
