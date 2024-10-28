@@ -39,51 +39,51 @@ The *Common Core* at 42 is the foundational curriculum that equips students with
 </pre>
 
 # Summary
-| Rank	| Exam | Projects Done |	Estimated effort (h)	| Date | Grade |  
+| Rank	| Exam | Projects Done |	Effort (h)	| Date | Grade |  
 |:------|:----:|:-------------:|:----------------------:|:----:|:-----:|  
-| [Rank 6 - Full Stack Development](#rank-6---full-stack-development) | ✅ | 0/1 | 245h | AGU/FREEZE | ⏳ |  
-| [Rank 5 - Docker, Web Servers and C++](#rank-5---docker-web-servers-and-c++) | ✅ | 3/3 |	525h | 24Sep13 | 105/100 |  
-| [Rank 4 - Computer Graphics and Networking](#rank-4---computer-graphics-and-networking) | ✅ | 3/3	| 400h | 24Feb01 | 100/100 |  
-| [Rank 3 - Multithreading and System Programming](#rank-3---multithreading-and-system-programming) | ✅ | 2/2	| 280h | 23Sep19 | 100/100 |  
-| [Rank 2 - Advanced Algorithms](#rank-2---advanced-algorithms) | ✅ | 3/3	| 200h | 23Jun02 | 100/100 |  
-| [Rank 1 - Intermediate](#rank-1---intermediate) | ✅ | 3/3	| 230h | 23Feb08 | 100/100 |  
-| [Rank 0 - Fundamentals](#rank-0---fundamentals) | ✅ | 1/1	| 90h | 22Nov26 | 125/100 |  
+| [Rank 6 - Full Stack Development](#rank-6---full-stack-development) | <img src="https://img.shields.io/badge/done-✅-ok" /> | `0/1` | `245h` | AGU/FREEZE | ⏳ |  
+| [Rank 5 - Docker, Web Servers and C++](#rank-5---docker-web-servers-and-c++) | <img src="https://img.shields.io/badge/done-✅-ok" /> | `3/3` |	`525h` | 13Sep24 | 105/100 |  
+| [Rank 4 - Computer Graphics and Networking](#rank-4---computer-graphics-and-networking) | <img src="https://img.shields.io/badge/done-✅-ok" /> | `3/3`	| `400h` | 01Feb24 | 100/100 |  
+| [Rank 3 - Multithreading and System Programming](#rank-3---multithreading-and-system-programming) | <img src="https://img.shields.io/badge/done-✅-ok" /> | `2/2`	| `280h` | 19Sep23 | 100/100 |  
+| [Rank 2 - Advanced Algorithms](#rank-2---advanced-algorithms) | <img src="https://img.shields.io/badge/done-✅-ok" /> | `3/3`	| `200h` | 02Jun23 | 100/100 |  
+| [Rank 1 - Intermediate](#rank-1---intermediate) | <img src="https://img.shields.io/badge/done-✅-ok" /> | `3/3` | `230h` | 08Feb23 | 100/100 |  
+| [Rank 0 - Fundamentals](#rank-0---fundamentals) | <img src="https://img.shields.io/badge/done-✅-ok" /> | `1/1`	| `90h` | 26Nov22 | 125/100 |  
 
 
 ## Rank 0 - Fundamentals
-- [X] [✅Libft](https://github.com/pin3dev/42_Libft) - Recreates basics functions from libc <img src="https://img.shields.io/badge/grade-125%2F125-yellow?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅Libft](https://github.com/pin3dev/42_Libft) - Recreates basics functions from libc <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-125%2F125-yellow?style=flat&logo=42&labelColor=gray"/> 
 
 ## Rank 1 - Intermediate
-- [X] [✅GetNextLine](https://github.com/pin3dev/42_GetNextLine) - Read a line from file descriptor <img src="https://img.shields.io/badge/grade-125%2F125-yellow?style=flat&logo=42&labelColor=gray"/> 
-- [X] [✅ft_Printf](https://github.com/pin3dev/42_ft_Printf) - Recreate the printf function <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> 
-- [X] [✅Born2BeRoot](https://github.com/pin3dev/42_Born2BeRoot) - Linux VM & Cybersecurity <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> <img src="https://img.shields.io/badge/%F0%9F%94%ACtutorial-violet?style=flat&color=violet"/> 
+- [X] [✅GetNextLine](https://github.com/pin3dev/42_GetNextLine) - Read a line from file descriptor <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-125%2F125-yellow?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅ft_Printf](https://github.com/pin3dev/42_ft_Printf) - Recreate the printf function <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅Born2BeRoot](https://github.com/pin3dev/42_Born2BeRoot) - Linux VM & Cybersecurity <img src="https://img.shields.io/badge/Shell%20Script-121011?style=flat&logo=gnu-bash&logoColor=white" /> <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> <img src="https://img.shields.io/badge/%F0%9F%94%ACtutorial-violet?style=flat&color=violet"/> 
 
 ## Rank 2 - Advanced Algorithms
-- [X] 🔐Exam Rank 2 - Completion exam for Rank 2 <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
-- [X] [✅Minitalk](https://github.com/pin3dev/42_Minitalk) - Data exchange using UNIX signals <img src="https://img.shields.io/badge/grade-115%2F125-green?style=flat&logo=42&labelColor=gray"/> 
-- [X] [✅PushSwap](https://github.com/pin3dev/42_PushSwap) - Sorting algorithm <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> <img src="https://img.shields.io/badge/%F0%9F%94%ACtutorial-violet?style=flat&color=violet"/> 
-- [X] [🔐so_Long](link) - 2D game development using C <img src="https://img.shields.io/badge/grade-103%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+- [X] 🔐Exam Rank 2 - Completion exam for Rank 2 <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅Minitalk](https://github.com/pin3dev/42_Minitalk) - Data exchange using UNIX signals <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-115%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅PushSwap](https://github.com/pin3dev/42_PushSwap) - Sorting algorithm <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> <img src="https://img.shields.io/badge/%F0%9F%94%ACtutorial-violet?style=flat&color=violet"/> 
+- [X] [🔐so_Long](link) - 2D game development <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-103%2F125-green?style=flat&logo=42&labelColor=gray"/> 
 
 
 ## Rank 3 - Multithreading and System Programming
-- [X] 🔐Exam Rank 3 - Completion exam for Rank 3 <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
-- [X] [🔐Philosophers](link) - Multithreaded dining philosophers problem <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> 
-- [X] [✅Minishell](https://github.com/pin3dev/42_Minishell) - Recreate a Unix shell <img src="https://img.shields.io/badge/grade-103%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+- [X] 🔐Exam Rank 3 - Completion exam for Rank 3 <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
+- [X] [🔐Philosophers](link) - Multithreaded dining philosophers problem <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅Minishell](https://github.com/pin3dev/42_Minishell) - Recreate a Unix shell <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-103%2F125-green?style=flat&logo=42&labelColor=gray"/> 
 
 ## Rank 4 - Computer Graphics and Networking
-- [X] 🔐Exam Rank 4 - Completion exam for Rank 4 <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
-- [X] [🔐Netpractice](link) - IP addressing and networking basics <img src="https://img.shields.io/badge/grade-100%2F100-green?style=flat&logo=42&labelColor=gray"/> 
-- [X] [✅Cub3d](https://github.com/pin3dev/42_cub3D) - 3D graphics engine using raycasting <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> 
-- [X] [✅CPP Modules 00-04](https://github.com/pin3dev/42_CPP_Modules_00-04) - Object-Oriented Programming principles <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
+- [X] 🔐Exam Rank 4 - Completion exam for Rank 4 <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
+- [X] [🔐Netpractice](link) - IP addressing and networking basics <img src="https://img.shields.io/badge/Subnetting-1f425f.svg?style=flat&logo=cisco&logoColor=white" /> <img src="https://img.shields.io/badge/grade-100%2F100-green?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅Cub3d](https://github.com/pin3dev/42_cub3D) - 3D graphics engine using raycasting <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅CPP Modules 00-04](https://github.com/pin3dev/42_CPP_Modules_00-04) - Object-Oriented Programming principles <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white" /> <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
 
 ## Rank 5 - Docker, Web Servers and C++
-- [X] 🔐Exam Rank 5 - Completion exam for Rank 5 <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
-- [X] [✅CPP Modules 05-09](https://github.com/pin3dev/42_CPP_Modules_05-09) - SOLID and STL concepts <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
-- [X] [✅Webserv](https://github.com/pin3dev/42_Webserv) - HTTP server in C++ <img src="https://img.shields.io/badge/grade-103%2F125-green?style=flat&logo=42&labelColor=gray"/> 
-- [X] [✅Inception](https://github.com/pin3dev/42_Inception) - Docker-based system architecture <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> <img src="https://img.shields.io/badge/%F0%9F%94%ACtutorial-violet?style=flat&color=violet"/> 
+- [X] 🔐Exam Rank 5 - Completion exam for Rank 5 <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white" /> <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅CPP Modules 05-09](https://github.com/pin3dev/42_CPP_Modules_05-09) - SOLID and STL concepts <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white" /> <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅Webserv](https://github.com/pin3dev/42_Webserv) - HTTP server <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white" /> <img src="https://img.shields.io/badge/grade-103%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅Inception](https://github.com/pin3dev/42_Inception) - Docker-based system architecture <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> <img src="https://img.shields.io/badge/%F0%9F%94%ACtutorial-violet?style=flat&color=violet"/> 
 
 ## Rank 6 - Full Stack Development
-- [X] 🔐Exam Rank 6 - Completion exam for Rank 6 <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
+- [X] 🔐Exam Rank 6 - Completion exam for Rank 6 <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
 - [ ] [⏳Ft_Transcendence](link) - Full Stack web application development 
 
 
