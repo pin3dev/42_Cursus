@@ -85,7 +85,7 @@ The *Common Core* at 42 is the foundational curriculum that equips students with
 
 ## Rank 6 - Full Stack Development
 - [X] 🔐Exam Rank 6 - Completion exam for Rank 6 <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
-- [ ] [⏳Ft_Transcendence](link) - Full Stack web application development 
+- [ ] [⏳Ft_Transcendence](https://github.com/pin3dev/42_ft_Transcendence) - Full Stack web application development 
 
 
 <!--
