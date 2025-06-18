@@ -41,7 +41,7 @@ The *Common Core* at 42 is the foundational curriculum that equips students with
 # Summary
 | Rank	| Exam | Projects Done |	Effort (h)	| Date | Grade |  
 |:------|:----:|:-------------:|:----------------------:|:----:|:-----:|  
-| [Rank 6 - Full Stack Development](#rank-6---full-stack-development) | <img src="https://img.shields.io/badge/done-✅-ok" /> | `0/1` | `245h` | AGU/FREEZE | ⏳ |  
+| [Rank 6 - Full Stack Development](#rank-6---full-stack-development) | <img src="https://img.shields.io/badge/done-✅-ok" /> | `1/1` | `245h` | 17Jun25 | 115/125 |  
 | [Rank 5 - Docker, Web Servers and C++](#rank-5---docker-web-servers-and-c++) | <img src="https://img.shields.io/badge/done-✅-ok" /> | `3/3` |	`525h` | 13Sep24 | 105/100 |  
 | [Rank 4 - Computer Graphics and Networking](#rank-4---computer-graphics-and-networking) | <img src="https://img.shields.io/badge/done-✅-ok" /> | `3/3`	| `400h` | 01Feb24 | 100/100 |  
 | [Rank 3 - Multithreading and System Programming](#rank-3---multithreading-and-system-programming) | <img src="https://img.shields.io/badge/done-✅-ok" /> | `2/2`	| `280h` | 19Sep23 | 100/100 |  
@@ -85,7 +85,7 @@ The *Common Core* at 42 is the foundational curriculum that equips students with
 
 ## Rank 6 - Full Stack Development
 - [X] 🔐Exam Rank 6 - Completion exam for Rank 6 <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
-- [ ] [⏳Ft_Transcendence](https://github.com/pin3dev/42_ft_Transcendence) - Full Stack web application development 
+- [X] [🔐Ft_Transcendence](https://github.com/42-Trancendence-Group/42-Transcendence) - Full Stack web application development 
 
 
 <!--
