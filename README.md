@@ -85,7 +85,7 @@ The *Common Core* at 42 is the foundational curriculum that equips students with
 
 ## Rank 6 - Full Stack Development
 - [X] 🔐Exam Rank 6 - Completion exam for Rank 6 <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
-- [X] [🔐Ft_Transcendence](https://github.com/42-Trancendence-Group/42-Transcendence) - Full Stack web application development <img src="https://img.shields.io/badge/node.js-5FA04E?style=flat&logo=Node.js&logoColor=white" /> <img src="https://img.shields.io/badge/sqlite-003B57?style=flat&logo=sqlite&logoColor=white" /> <img src="https://img.shields.io/badge/typescript-3178C6?style=flat&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white" /> <img src="https://img.shields.io/badge/grade-115%2F100-yellow?style=flat&logo=42&labelColor=gray"/> 
+- [X] [🔐Ft_Transcendence](https://github.com/pin3dev/42-ft_Transcendence) - Full Stack web application development <img src="https://img.shields.io/badge/node.js-5FA04E?style=flat&logo=Node.js&logoColor=white" /> <img src="https://img.shields.io/badge/sqlite-003B57?style=flat&logo=sqlite&logoColor=white" /> <img src="https://img.shields.io/badge/typescript-3178C6?style=flat&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white" /> <img src="https://img.shields.io/badge/grade-115%2F100-yellow?style=flat&logo=42&labelColor=gray"/> 
 
 
 <!--
