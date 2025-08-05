@@ -70,7 +70,20 @@
 |:---------:|:---:|:---:|--------------------|
 | ⭐⭐ |  | 📚 |[]()  
 
+## 03-Philosophers
 
+| Grade |Lang | Type| Links |
+|:---------:|:---:|:---:|--------------------|
+| 🤩 | 🇺🇸 | 📹 |[Introduction To Threads (pthreads)](https://www.youtube.com/watch?v=ldJ8WGZVXZk)  
+| ⭐⭐ | 🇺🇸 | 📹 |[Why Are Threads Needed On Single Core Processors](https://www.youtube.com/watch?v=M9HHWFp84f0)  
+| 🤩 | 🇺🇸 | 📹 |[How to create and join threads in C (pthreads)](https://www.youtube.com/watch?v=uA8X5zNOGw8)  
+| 🤩 | 🇺🇸 | 📹 |[How to pass arguments to and get results from threads](https://www.youtube.com/watch?v=It0OFCbbTJE&list=PL9IEJIKnBJjFZxuqyJ9JqVYmuFZHr7CFM&index=2)  
+| 🤩 | 🇺🇸 | 📹 |[Safety and Speed Issues with Threads](https://www.youtube.com/watch?v=9axu8CUvOKY&list=PL9IEJIKnBJjFZxuqyJ9JqVYmuFZHr7CFM&index=3)  
+| 🤩 | 🇺🇸 | 📹 |[Debugging with Multiple Threads (gdb, pthreads)](https://www.youtube.com/watch?v=aypNWcRlwYw&list=PL9IEJIKnBJjFZxuqyJ9JqVYmuFZHr7CFM&index=4)  
+| 🤩 | 🇺🇸 | 📹 |[What is a semaphore? How do they work?](https://www.youtube.com/watch?v=ukM_zzrIeXs&list=PL9IEJIKnBJjFZxuqyJ9JqVYmuFZHr7CFM&index=9)  
+| ✅ | 🇺🇸 | 🗃️ |[pthreads(7) — Linux manual page](https://man7.org/linux/man-pages/man7/pthreads.7.html)  
+| ⭐⭐ | 🇧🇷 | 📚 |[Programação em Memória Partilhada com o Pthreads](https://www.dcc.fc.up.pt/~ricroc/aulas/1516/cp/apontamentos/slides_pthreads.pdf)  
+| ⭐⭐ | 🇧🇷 | 📚 |[Programando com Threads em C](https://homepages.dcc.ufmg.br/~coutinho/pthreads/ProgramandoComThreads.pdf)  
 
 ## 05-Inception
 
