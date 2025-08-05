@@ -23,7 +23,7 @@
 |🤩| 🇺🇸 | 📄 |[Linked lists](https://www.learn-c.org/en/Linked_lists)|  
 |🤩| 🇺🇸 | 📄 |[Linked List in C](https://www.geeksforgeeks.org/linked-list-in-c/)|  
 |🤩| 🇺🇸 | 📄 |[Learn Makefiles](https://makefiletutorial.com/)|  
-|🤩| 🇺🇸 | 📚 |[GNU make](https://www.gnu.org/software/make/manual/make.html)|  
+|🤩| 🇺🇸 | 🗃️ |[GNU make](https://www.gnu.org/software/make/manual/make.html)|  
 
 
 ## 01-ft_Printf
