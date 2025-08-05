@@ -44,22 +44,23 @@
 
 | Grade |Lang | Type| Links |
 |:---------:|:---:|:---:|--------------------|
-| ⭐⭐ |  | 📚 |[O que são máquinas virtuais (VM)?](https://azure.microsoft.com/pt-pt/resources/cloud-computing-dictionary/what-is-a-virtual-machine)|  
-| ⭐⭐ |  | 📚 |[O que é uma máquina virtual?](https://www.redhat.com/pt-br/topics/virtualization/what-is-a-virtual-machine)|  
-| ⭐⭐ |  | 📚 |[O que é um sistema operacional?](https://edu.gcfglobal.org/pt/informatica-basica/o-que-e-um-sistema-operacional/1/)|  
+| ⭐⭐ | 🇧🇷 | 📚 |[O que são máquinas virtuais (VM)?](https://azure.microsoft.com/pt-pt/resources/cloud-computing-dictionary/what-is-a-virtual-machine)|  
+| ⭐⭐ | 🇧🇷 | 📚 |[O que é uma máquina virtual?](https://www.redhat.com/pt-br/topics/virtualization/what-is-a-virtual-machine)|  
+| ⭐⭐ | 🇧🇷 | 📚 |[O que é um sistema operacional?](https://edu.gcfglobal.org/pt/informatica-basica/o-que-e-um-sistema-operacional/1/)|  
 | ⭐⭐ |  | 📚 |[CentOS vs Debian](https://www.educba.com/centos-vs-debian/)| 
-| ⭐⭐ |  | 📚 |[O que é APT e aptidão?](https://pt.linux-console.net/?p=1375#gsc.tab=0)| 
-| ⭐⭐ |  | 📚 |[AppArmor](https://apparmor.net/)| 
-| ⭐⭐ |  | 📚 |[ntrodução ao AppArmor](https://debian-handbook.info/browse/pt-BR/stable/sect.apparmor.html)| 
-| ⭐⭐ |  | 📚 |[Tudo que você precisa saber sobre particionamento de disco](https://www.codigofonte.com.br/artigos/tudo-que-voce-precisa-saber-sobre-particionamento-de-disco)| 
-| ⭐⭐ |  | 📚 |[Sabe o que é LVM](https://pplware.sapo.pt/microsoft/windows/sabe-o-que-e-lvm-logic-volume-manager/)| 
-| ⭐⭐ |  | 📚 |[Gerenciamento eficiente de dispositivos em bloco com LVM](https://blog.4linux.com.br/introducao-ao-lvm/)| 
-| ⭐⭐ |  | 📹 |[Introduction to LVM](https://www.youtube.com/watch?v=dMHFArkANP8)| 
-| ⭐⭐ |  | 📄 |[Firewall: o que é e como funciona](https://www.claranet.com/br/blog/firewall-o-que-e-e-como-funciona)| 
-| ⭐⭐ |  | 📄 |[Tabelas do iptables](https://e-tinet.com/linux/tabelas-do-iptables-firewall-linux/)| 
-| ⭐⭐ |  | 📄 |[Como Funciona o SSH](https://www.hostinger.com.br/tutoriais/como-funciona-o-ssh)| 
-| ⭐⭐ |  | 📄 |[crontab guru](https://crontab.guru/)| 
-| ⭐⭐ |  | 📄 |[Crontab](https://pt.wikipedia.org/wiki/Crontab)| 
+| ⭐⭐ | 🇧🇷 | 📚 |[O que é APT e aptidão?](https://pt.linux-console.net/?p=1375#gsc.tab=0)| 
+| ⭐⭐ | 🇺🇸 | 📚 |[AppArmor](https://apparmor.net/)| 
+| ⭐⭐ | 🇧🇷 | 📚 |[ntrodução ao AppArmor](https://debian-handbook.info/browse/pt-BR/stable/sect.apparmor.html)| 
+| ⭐⭐ | 🇧🇷 | 📚 |[Tudo que você precisa saber sobre particionamento de disco](https://www.codigofonte.com.br/artigos/tudo-que-voce-precisa-saber-sobre-particionamento-de-disco)| 
+| ⭐⭐ | 🇧🇷 | 📚 |[Sabe o que é LVM](https://pplware.sapo.pt/microsoft/windows/sabe-o-que-e-lvm-logic-volume-manager/)| 
+| ⭐⭐ | 🇧🇷 | 📚 |[Gerenciamento eficiente de dispositivos em bloco com LVM](https://blog.4linux.com.br/introducao-ao-lvm/)| 
+| ⭐⭐ | 🇺🇸 | 📹 |[Introduction to LVM](https://www.youtube.com/watch?v=dMHFArkANP8)| 
+| ⭐⭐ | 🇧🇷 | 📄 |[Firewall: o que é e como funciona](https://www.claranet.com/br/blog/firewall-o-que-e-e-como-funciona)| 
+| ⭐⭐ | 🇧🇷 | 📄 |[Tabelas do iptables](https://e-tinet.com/linux/tabelas-do-iptables-firewall-linux/)| 
+| ⭐⭐ | 🇧🇷 | 📄 |[Como Funciona o SSH](https://www.hostinger.com.br/tutoriais/como-funciona-o-ssh)| 
+| ⭐⭐ | 🇺🇸 | 📄 |[crontab guru](https://crontab.guru/)| 
+| ⭐⭐ | 🇺🇸 | 📄 |[Crontab](https://pt.wikipedia.org/wiki/Crontab)|  
+| 🤩  | 🇺🇸 | 📹 |[Linux File System Explained](https://www.youtube.com/watch?v=bbmWOjuFmgA&list=PLCRMIe5FDPsd0gVs500xeOewfySTsmEjf&index=53)|  
 
 
 
@@ -79,7 +80,7 @@
 | ✅ |  🇺🇸 |  📚 | [Docker Concepts](https://container.training/intro-selfpaced.yml.html#1) |  
 | ⭐⭐ |  🇺🇸 |  📄 | [42 Inception Guide - Part 1](https://medium.com/@ssterdev/inception-guide-42-project-part-i-7e3af15eb671) |  
 | ⭐⭐ |  🇺🇸 |  📄 | [42 Inception Guide - Part 2](https://medium.com/@ssterdev/inception-42-project-part-ii-19a06962cf3b) |  
-| 🤩 |  🇧🇷 |  📹 | [Docker Essencial: Docker para Iniciantes](https://www.youtube.com/playlist?list=PLViOsriojeLrdw5VByn96gphHFxqH3O_N) |  
+| 🤩 | 🇧🇷 |  📹 | [Docker Essencial: Docker para Iniciantes](https://www.youtube.com/playlist?list=PLViOsriojeLrdw5VByn96gphHFxqH3O_N) |  
 | ⭐⭐ |  🇺🇸 |  📹 | [Docker](https://www.youtube.com/playlist?list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp2rK) |  
 
 
@@ -96,8 +97,10 @@
 | ⭐⭐ | 🇺🇸 | 📹 | [Message Queues in System Design](https://www.youtube.com/watch?v=DYFocSiPOl8) |  
 | 🤩 | 🇺🇸 | 📹 | [Top 5 Redis Use Cases](https://www.youtube.com/watch?v=a4yX7RUgTxI) |  
 | 🤩 | 🇺🇸 | 📹 | [SSL, TLS, HTTPS Explained](https://www.youtube.com/watch?v=j9QmMEWmcfo) |  
-
-
-
+| 🤩 | 🇺🇸 | 📹 | [What Is REST API? Examples And How To Use It](https://www.youtube.com/watch?v=-mN3VyJuCjM&list=PLCRMIe5FDPsd0gVs500xeOewfySTsmEjf&index=4) |  
+| 🤩 | 🇺🇸 | 📹 | [What is API Gateway?](https://www.youtube.com/watch?v=6ULyxuHKxg8&list=PLCRMIe5FDPsd0gVs500xeOewfySTsmEjf&index=18) |  
+| 🤩 | 🇺🇸 | 📹 | [Proxy vs Reverse Proxy, Real-world Examples](https://www.youtube.com/watch?v=4NB0NDtOwIQ&list=PLCRMIe5FDPsd0gVs500xeOewfySTsmEjf&index=19) |  
+| 🤩 | 🇺🇸 | 📹 | [System Design: How to store passwords in the database?](https://www.youtube.com/watch?v=zt8Cocdy15c&list=PLCRMIe5FDPsd0gVs500xeOewfySTsmEjf&index=22) |  
+| 🤩 | 🇺🇸 | 📹 | [Top 6 Most Popular API Architecture Styles](https://www.youtube.com/watch?v=4vLxWqE94l4&list=PLCRMIe5FDPsd0gVs500xeOewfySTsmEjf&index=29) |  
 
 
