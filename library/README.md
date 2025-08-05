@@ -1,5 +1,7 @@
 <h1 align="center">📖 Theoretical 📖</h1>
 
+> Grade: ✅ OK ⭐ Good ⭐⭐ VeryGood 🤩 Amazing 🔖 Bookmarked2Read  
+> Type: 📄 Blog 💭 Chat 📹 Video 📚 Book 🗃️ Documentation
 
 ## 00-Libft
 
@@ -22,8 +24,7 @@
 |🤩| 🇺🇸 | 📄 |[Linked List in C](https://www.geeksforgeeks.org/linked-list-in-c/)|  
 |🤩| 🇺🇸 | 📄 |[Learn Makefiles](https://makefiletutorial.com/)|  
 |🤩| 🇺🇸 | 📚 |[GNU make](https://www.gnu.org/software/make/manual/make.html)|  
-> ✅ OK | ⭐ Good | ⭐⭐ VeryGood | 🤩 Amazing | 🔖 Bookmarked2Read  
-> 📄 Blog | 💭 Chat | 📹 Video | 📚 Book
+
 
 ## 01-ft_Printf
 
@@ -37,9 +38,6 @@
 |⭐| 🇺🇸 | 📄 |[Format Specifiers in C](https://www.tutorialspoint.com/cprogramming/c_format_specifiers.htm)| 
 |⭐| 🇺🇸 | 📄 |[C printf-Style Format Codes](https://www.nv5geospatialsoftware.com/docs/Format_Codes_CPrintf.html)|  
 |🤩| 🇺🇸 | 📄 |[Format Specifiers In C](https://unstop.com/blog/format-specifiers-in-c)|
-
-> ✅ OK | ⭐ Good | ⭐⭐ VeryGood | 🤩 Amazing | 🔖 Bookmarked2Read  
-> 📄 Blog | 💭 Chat | 📹 Video | 📚 Book
 
 
 ## 01-Born2BeRoot
@@ -63,8 +61,6 @@
 | ⭐⭐ |  | 📄 |[crontab guru](https://crontab.guru/)| 
 | ⭐⭐ |  | 📄 |[Crontab](https://pt.wikipedia.org/wiki/Crontab)| 
 
-> ✅ OK | ⭐ Good | ⭐⭐ VeryGood | 🤩 Amazing | 🔖 Bookmarked2Read  
-> 📄 Blog | 💭 Chat | 📹 Video | 📚 Book
 
 
 ## 02-Minitalk
@@ -72,20 +68,23 @@
 | Grade |Lang | Type| Links |
 |:---------:|:---:|:---:|--------------------|
 | ⭐⭐ |  | 📚 |[]()  
-> ✅ OK | ⭐ Good | ⭐⭐ VeryGood | 🤩 Amazing | 🔖 Bookmarked2Read  
-> 📄 Blog | 💭 Chat | 📹 Video | 📚 Book
+
 
 
 ## 05-Inception
 
 | Grade | Lang | Type | Links and Subjects |
 |:----:|:----:|:----:|:------------------|
-| ⭐  |  🇺🇸 | 🔖  | [Debian Versions](https://www.debian.org/releases/) |  
+| ⭐  |  🇺🇸 | 🗃️  | [Debian Versions](https://www.debian.org/releases/) |  
 |  ✅ |  🇺🇸 |  📚 | [Docker Concepts](https://container.training/intro-selfpaced.yml.html#1) |  
 | ⭐⭐ |  🇺🇸 |  📄 | [42 Inception Guide - Part 1](https://medium.com/@ssterdev/inception-guide-42-project-part-i-7e3af15eb671) |  
 | ⭐⭐ |  🇺🇸 |  📄 | [42 Inception Guide - Part 2](https://medium.com/@ssterdev/inception-42-project-part-ii-19a06962cf3b) |  
 | 🤩 |  🇧🇷 |  📹 | [Docker Essencial: Docker para Iniciantes](https://www.youtube.com/playlist?list=PLViOsriojeLrdw5VByn96gphHFxqH3O_N) |  
 | ⭐⭐ |  🇺🇸 |  📹 | [Docker](https://www.youtube.com/playlist?list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp2rK) |  
 
-> ✅ OK | ⭐ Good | ⭐⭐ VeryGood | 🤩 Amazing | 🔖 Bookmarked2Read  
-> 📄 Blog | 💭 Chat | 📹 Video | 📚 Book & Scientific Papers  
+
+## 06-ft_transcendence
+
+| Grade | Lang | Type | Links and Subjects |
+|:-:|:-:|:-:|:-|
+| ⭐⭐ | 🇺🇸 | 🔖 | [What Are Microservices Really All About?](https://www.youtube.com/watch?v=lTAcCNbJ7KE) |  
