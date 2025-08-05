@@ -76,7 +76,7 @@
 | Grade | Lang | Type | Links and Subjects |
 |:----:|:----:|:----:|:------------------|
 | ⭐  |  🇺🇸 | 🗃️  | [Debian Versions](https://www.debian.org/releases/) |  
-|  ✅ |  🇺🇸 |  📚 | [Docker Concepts](https://container.training/intro-selfpaced.yml.html#1) |  
+| ✅ |  🇺🇸 |  📚 | [Docker Concepts](https://container.training/intro-selfpaced.yml.html#1) |  
 | ⭐⭐ |  🇺🇸 |  📄 | [42 Inception Guide - Part 1](https://medium.com/@ssterdev/inception-guide-42-project-part-i-7e3af15eb671) |  
 | ⭐⭐ |  🇺🇸 |  📄 | [42 Inception Guide - Part 2](https://medium.com/@ssterdev/inception-42-project-part-ii-19a06962cf3b) |  
 | 🤩 |  🇧🇷 |  📹 | [Docker Essencial: Docker para Iniciantes](https://www.youtube.com/playlist?list=PLViOsriojeLrdw5VByn96gphHFxqH3O_N) |  
@@ -88,3 +88,16 @@
 | Grade | Lang | Type | Links and Subjects |
 |:-:|:-:|:-:|:-|
 | ⭐⭐ | 🇺🇸 | 📹 | [What Are Microservices Really All About?](https://www.youtube.com/watch?v=lTAcCNbJ7KE) |  
+| ⭐⭐ | 🇺🇸 | 📹 | [Architecture: Layered Architecture](https://www.youtube.com/watch?v=WiXp2p4obe4) |  
+| 🤩 | 🇺🇸 | 📹 | [What is a single page application? SPA](https://www.youtube.com/watch?v=eIxDHgzGCnY&t=205s) |  
+| ✅ | 🇺🇸 | 📹 | [What Is SQL Injection?](https://www.youtube.com/watch?v=wcaiKgQU6VE) |  
+| ✅ | 🇺🇸 | 📹 | [What is an ORM and what does it do?](https://www.youtube.com/watch?v=EwpT466EyP4) |  
+| ⭐⭐ | 🇺🇸 | 📹 | [Difference between cookies, session and tokens](https://www.youtube.com/watch?v=GhrvZ5nUWNg) |  
+| ⭐⭐ | 🇺🇸 | 📹 | [Message Queues in System Design](https://www.youtube.com/watch?v=DYFocSiPOl8) |  
+| 🤩 | 🇺🇸 | 📹 | [Top 5 Redis Use Cases](https://www.youtube.com/watch?v=a4yX7RUgTxI) |  
+| 🤩 | 🇺🇸 | 📹 | [SSL, TLS, HTTPS Explained](https://www.youtube.com/watch?v=j9QmMEWmcfo) |  
+
+
+
+
+
