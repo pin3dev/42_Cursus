@@ -1,7 +1,7 @@
 <h1 align="center">📖 Theoretical 📖</h1>
 
-> Grade: ✅ OK ⭐ Good ⭐⭐ VeryGood 🤩 Amazing 🔖 Bookmarked2Read  
-> Type: 📄 Blog 💭 Chat 📹 Video 📚 Book 🗃️ Documentation
+> **Grade**: ✅ _OK_ ⭐ _Good_ ⭐⭐ _VeryGood_ 🤩 _Amazing_ 🔖 _Bookmarked2Read_  
+> **Type**: 📄 _Blog_ 💭 _Chat_ 📹 _Video_ 📚 _Book_ 🗃️ _Documentation_
 
 ## 00-Libft
 
@@ -87,4 +87,4 @@
 
 | Grade | Lang | Type | Links and Subjects |
 |:-:|:-:|:-:|:-|
-| ⭐⭐ | 🇺🇸 | 🔖 | [What Are Microservices Really All About?](https://www.youtube.com/watch?v=lTAcCNbJ7KE) |  
+| ⭐⭐ | 🇺🇸 | 📹 | [What Are Microservices Really All About?](https://www.youtube.com/watch?v=lTAcCNbJ7KE) |  
