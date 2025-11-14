@@ -117,3 +117,9 @@
 | 🤩 | 🇺🇸 | 📹 | [Top 6 Most Popular API Architecture Styles](https://www.youtube.com/watch?v=4vLxWqE94l4&list=PLCRMIe5FDPsd0gVs500xeOewfySTsmEjf&index=29) |  
 
 
+## avaj-launcher
+
+| 🤩 | 🇺🇸 | 📄 | [UML Class Diagram Tutorial](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/) |  
+| 🤩 | 🇧🇷 | 📄 | [O guia definitivo para diagramas UML](https://miro.com/pt/diagrama/o-que-e-uml/) |  
+| 🤩 | 🇧🇷 | 📄 | [Guia de tipos de diagramas UML](https://creately.com/blog/pt/diagrama/guia-de-tipos-de-diagramas-uml-aprenda-sobre-todos-os-tipos-de-diagramas-uml-com-exemplos/) |  
+| 🤩 | 🇧🇷 | 📄 | [Modelando a Estrutura Estática Utilizando Diagramas de Classes](https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=model-modeling-class-diagram-static-structure) |
