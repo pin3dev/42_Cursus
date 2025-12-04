@@ -127,3 +127,4 @@
 | 🤩 | 🇧🇷 | 📄 | [Modelando a Estrutura Estática Utilizando Diagramas de Classes](https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=model-modeling-class-diagram-static-structure) |  
 | 🤩 | 🇺🇸 | 📄 | [Design patterns – Singleton, Factory, Observer](https://www.mvps.net/docs/design-patterns-singleton-factory-observer/) |  
 | 🤩 | 🇧🇷 | 📄 | [4 padrões de projeto que você deveria conhecer: Observer, Singleton, Strategy e Decorator](https://www.freecodecamp.org/portuguese/news/4-padroes-de-projeto-que-voce-deveria-conhecer-observer-singleton-strategy-e-decorator/) |  
+| 🤩 | 🇺🇸 | 📄 | [How Compilation Works in Java](https://medium.com/@alxkm/how-compilation-works-in-java-0ac4d1e95b99) |  
