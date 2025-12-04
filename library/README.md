@@ -128,3 +128,4 @@
 | 🤩 | 🇺🇸 | 📄 | [Design patterns – Singleton, Factory, Observer](https://www.mvps.net/docs/design-patterns-singleton-factory-observer/) |  
 | 🤩 | 🇧🇷 | 📄 | [4 padrões de projeto que você deveria conhecer: Observer, Singleton, Strategy e Decorator](https://www.freecodecamp.org/portuguese/news/4-padroes-de-projeto-que-voce-deveria-conhecer-observer-singleton-strategy-e-decorator/) |  
 | 🤩 | 🇺🇸 | 📄 | [How Compilation Works in Java](https://medium.com/@alxkm/how-compilation-works-in-java-0ac4d1e95b99) |  
+| 🤩 | 🇺🇸 | 📄 | [A beginners guide to Gradle](https://medium.com/@andrewMacmurray/a-beginners-guide-to-gradle-26212ddcafa8) |  
