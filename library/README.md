@@ -85,6 +85,24 @@
 | ⭐⭐ | 🇧🇷 | 📚 |[Programação em Memória Partilhada com o Pthreads](https://www.dcc.fc.up.pt/~ricroc/aulas/1516/cp/apontamentos/slides_pthreads.pdf)  
 | ⭐⭐ | 🇧🇷 | 📚 |[Programando com Threads em C](https://homepages.dcc.ufmg.br/~coutinho/pthreads/ProgramandoComThreads.pdf)  
 
+
+## 03-Minishell
+
+| Grade |Lang | Type| Links |
+|:---------:|:---:|:---:|--------------------|
+| 🤩 | 🇺🇸 | 📹 | [xv6 Kernel-34: Pipes](https://www.youtube.com/watch?v=krO7ZdPzQ_M) |
+| 🤩 | 🇺🇸 | 📹 | [xv6 Kernel-35: File Descriptors and Open Files](https://www.youtube.com/watch?v=oWuVGDese4k) |
+| 🤩 | 🇺🇸 | 📹 | [xv6 Kernel-36: File-Related System Calls-Part 1](https://www.youtube.com/watch?v=Mq-3HA3FimI) |
+| 🤩 | 🇺🇸 | 📹 | [xv6 Kernel-37: File-Related System Calls-Part 2](https://www.youtube.com/watch?v=TYmHsRS_JWI) |
+| 🤩 | 🇺🇸 | 📹 | [xv6 Kernel-38: Exec System Call](https://www.youtube.com/watch?v=bp0qo4-ozEg) |
+
+## 04-Cub3D
+
+| Grade |Lang | Type| Links |
+|:---------:|:---:|:---:|--------------------|
+| ⭐ | 🇺🇸 | 📹 | [Make Your Own Raycaster All Parts](https://www.youtube.com/watch?v=gYRrGTC7GtA&t=3s) |
+| 🤩 | 🇧🇷 | 📹 | [Codificando a ENGINE do Wolfenstein 3d com RayCasting. Passo a Passo do Zero em JavaScript. Toda Lista](https://www.youtube.com/watch?v=J5K8qMCB-7o) |
+
 ## 05-Inception
 
 | Grade | Lang | Type | Links and Subjects |
