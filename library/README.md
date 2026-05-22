@@ -62,13 +62,35 @@
 | ⭐⭐ | 🇺🇸 | 📄 |[Crontab](https://pt.wikipedia.org/wiki/Crontab)|  
 | 🤩  | 🇺🇸 | 📹 |[Linux File System Explained](https://www.youtube.com/watch?v=bbmWOjuFmgA&list=PLCRMIe5FDPsd0gVs500xeOewfySTsmEjf&index=53)|  
 
+## 02-SoLong
+
+| Grade |Lang | Type| Links |
+|:---------:|:---:|:---:|--------------------|
+| ⭐⭐ | 🇺🇸 | 📹 |[This is how Paint's bucket fill works (Flood fill algorithm)](https://www.youtube.com/watch?v=VuiXOc81UDM&t=57s)  
+| ⭐ | 🇧🇷 | 📹 |[Algoritmo FloodFill](https://www.youtube.com/watch?v=pOfS4sEBAP8)  
+| ⭐⭐ | 🇺🇸 | 📹 |[Dynamic Programming / Flood Fill Algorithm](https://www.youtube.com/watch?v=Zwh-QNlsurI)  
 
 
 ## 02-Minitalk
 
 | Grade |Lang | Type| Links |
 |:---------:|:---:|:---:|--------------------|
-| ⭐⭐ |  | 📚 |[]()  
+| ⭐⭐ | 🇺🇸 | 📹 |[Bitwise Operators in C (Part 1)](https://www.youtube.com/watch?v=jlQmeyce65Q&t=93s)  
+| ⭐⭐ | 🇺🇸 | 📹 |[Bitwise Operators in C (Part 2)](https://www.youtube.com/watch?v=8aFik6lPPaA)  
+| ⭐⭐ | 🇺🇸 | 📹 |[Bitwise Operators in C (Part 3)](https://www.youtube.com/watch?v=GhhJP6vpEA8&t=99s)  
+| ⭐⭐ | 🇺🇸 | 📹 |[Bitwise Operators in C (Part 4)](https://www.youtube.com/watch?v=kYR5biY4OHw&t=77s)  
+| ⭐⭐ | 🇺🇸 | 📹 |[Sending and Handling Signals in C (kill, signal, sigaction)](https://www.youtube.com/watch?v=83M5-NPDeWs)  
+| ⭐⭐ | 🇺🇸 | 📹 |[Short introduction to signals in C)](https://www.youtube.com/watch?v=5We_HtLlAbs&t=16s)  
+| ⭐⭐ | 🇺🇸 | 📹 |[Handling signals](https://www.youtube.com/watch?v=jF-1eFhyz1U)  
+| ⭐⭐ | 🇺🇸 | 📹 |[Process IDs in C](https://www.youtube.com/watch?v=PZrQ4eGm-hM&list=PLfqABt5AS4FkW5mOn2Tn9ZZLLDwA3kZUY&index=5)  
+| ✅ | 🇺🇸 | 📹 |[Signal Handling in Linux](https://www.youtube.com/playlist?list=PLPEkNm3Pt058wh0hlsWbeS3suuXPnEVvQ)  
+
+## 02-PushSwap
+
+| Grade |Lang | Type| Links |
+|:---------:|:---:|:---:|--------------------|
+| ⭐⭐ | 🇺🇸 | 📹 | [Linked lists for absolute beginners](https://www.youtube.com/playlist?list=PLfqABt5AS4FmXeWuuNDS3XGENJO1VYGxl)  
+
 
 ## 03-Philosophers
 
@@ -76,6 +98,7 @@
 |:---------:|:---:|:---:|--------------------|
 | 🤩 | 🇺🇸 | 📹 |[Introduction To Threads (pthreads)](https://www.youtube.com/watch?v=ldJ8WGZVXZk)  
 | ⭐⭐ | 🇺🇸 | 📹 |[Why Are Threads Needed On Single Core Processors](https://www.youtube.com/watch?v=M9HHWFp84f0)  
+| ⭐⭐ | 🇺🇸 | 📹 |[Unix Threads in C](https://www.youtube.com/playlist?list=PLfqABt5AS4FmuQf70psXrsMLEDQXNkLq2)  
 | 🤩 | 🇺🇸 | 📹 |[How to create and join threads in C (pthreads)](https://www.youtube.com/watch?v=uA8X5zNOGw8)  
 | 🤩 | 🇺🇸 | 📹 |[How to pass arguments to and get results from threads](https://www.youtube.com/watch?v=It0OFCbbTJE&list=PL9IEJIKnBJjFZxuqyJ9JqVYmuFZHr7CFM&index=2)  
 | 🤩 | 🇺🇸 | 📹 |[Safety and Speed Issues with Threads](https://www.youtube.com/watch?v=9axu8CUvOKY&list=PL9IEJIKnBJjFZxuqyJ9JqVYmuFZHr7CFM&index=3)  
@@ -95,6 +118,7 @@
 | 🤩 | 🇺🇸 | 📹 | [xv6 Kernel-36: File-Related System Calls-Part 1](https://www.youtube.com/watch?v=Mq-3HA3FimI) |
 | 🤩 | 🇺🇸 | 📹 | [xv6 Kernel-37: File-Related System Calls-Part 2](https://www.youtube.com/watch?v=TYmHsRS_JWI) |
 | 🤩 | 🇺🇸 | 📹 | [xv6 Kernel-38: Exec System Call](https://www.youtube.com/watch?v=bp0qo4-ozEg) |
+| 🤩 | 🇺🇸 | 📹 | [Unix Processes in C](https://www.youtube.com/playlist?list=PLfqABt5AS4FkW5mOn2Tn9ZZLLDwA3kZUY)  
 
 ## 04-Cub3D
 
