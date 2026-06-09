@@ -62,7 +62,7 @@ The *Common Core* at 42 is the foundational curriculum that equips students with
 - [X] 🔐Exam Rank 2 - Completion exam for Rank 2 <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-100%2F100-blue?style=flat&logo=42&labelColor=gray"/> 
 - [X] [✅Minitalk](https://github.com/pin3dev/42_Minitalk) - Data exchange using UNIX signals <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-115%2F125-green?style=flat&logo=42&labelColor=gray"/> 
 - [X] [✅PushSwap](https://github.com/pin3dev/42_PushSwap) - Sorting algorithm <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-100%2F125-green?style=flat&logo=42&labelColor=gray"/> <img src="https://img.shields.io/badge/%F0%9F%94%ACtutorial-violet?style=flat&color=violet"/> 
-- [X] [🔐so_Long](https://github.com/pin3dev/42_So_Long) - 2D game development <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-103%2F125-green?style=flat&logo=42&labelColor=gray"/> 
+- [X] [✅so_Long](https://github.com/pin3dev/42_So_Long) - 2D game development <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/grade-103%2F125-green?style=flat&logo=42&labelColor=gray"/> 
 
 
 ## Rank 3 - Multithreading and System Programming
